@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/paulkamer.nl/static/css/main.d1b05096.chunk.css",
+    "main.js": "/paulkamer.nl/static/js/main.1388c63f.chunk.js",
+    "main.js.map": "/paulkamer.nl/static/js/main.1388c63f.chunk.js.map",
+    "runtime-main.js": "/paulkamer.nl/static/js/runtime-main.012455d0.js",
+    "runtime-main.js.map": "/paulkamer.nl/static/js/runtime-main.012455d0.js.map",
+    "static/js/2.996c8894.chunk.js": "/paulkamer.nl/static/js/2.996c8894.chunk.js",
+    "static/js/2.996c8894.chunk.js.map": "/paulkamer.nl/static/js/2.996c8894.chunk.js.map",
+    "index.html": "/paulkamer.nl/index.html",
+    "precache-manifest.a576cd716d9e55fd0ab357b079a33e0c.js": "/paulkamer.nl/precache-manifest.a576cd716d9e55fd0ab357b079a33e0c.js",
+    "service-worker.js": "/paulkamer.nl/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/paulkamer.nl/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.996c8894.chunk.js.LICENSE": "/paulkamer.nl/static/js/2.996c8894.chunk.js.LICENSE",
+    "static/media/logo.svg": "/paulkamer.nl/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.012455d0.js",
+    "static/js/2.996c8894.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.1388c63f.chunk.js"
+  ]
+}
