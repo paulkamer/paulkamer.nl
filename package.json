@@ -2,7 +2,7 @@
   "name": "paulkamer.nl",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://paulkamer.github.io/paulkamer.nl",
+  "homepage": "https://paulkamer.nl/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
+    "predeploy": "yarn run build && cp CNAME ./build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
