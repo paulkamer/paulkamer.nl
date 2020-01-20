@@ -42,7 +42,7 @@ const Home = () => {
 
       <section>
         <h2 id="projects">Projects</h2>
-        See <Link to="projects">Projects page</Link>
+        See <Link to="/projects/">Projects page</Link>
       </section>
     </article>
   );
