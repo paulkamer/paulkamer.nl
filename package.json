@@ -20,7 +20,7 @@
     "typescript": "^3.7.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-app-rewired start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:lint:css": "stylelint \"src/**/*.css\"",
@@ -44,7 +44,9 @@
     ]
   },
   "devDependencies": {
+    "react-app-rewired": "^2.1.5",
     "stylelint": "^13.0.0",
-    "stylelint-config-standard": "^19.0.0"
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-webpack-plugin": "^1.2.1"
   }
 }
