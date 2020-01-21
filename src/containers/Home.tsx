@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <article>
       <h1>Home</h1>
-      Download my CV: <a href="/docs/cv.pdf">Dutch</a> | <a href="/docs/cv_en.pdf">English</a>
+      {/* Download my CV: <a href="/docs/cv.pdf">Dutch</a> | <a href="/docs/cv_en.pdf">English</a> */}
 
       <section id="skills">
         <h2>Skills</h2>
@@ -29,14 +29,20 @@ const Home = () => {
 
         <article>
           <h3>start.me</h3>
+
+          <p>start.me is an online start page/bookmark manager for both individuals and organisations.</p>
         </article>
 
         <article>
           <h3>Global Sports Media / Perform Group</h3>
+
+          <p>Global Sports Media (GSM) collects and syndicates sports statistics, via a REST api, FTP push service and hosted (white-label) websites and widgets.</p>
         </article>
 
         <article>
           <h3>Sport-Track / MyLaps</h3>
+
+          <p>As a web developer I worked on a back-end portal (PHP), which used an Oracle database. Using this portal, organisers could manage their sports events. Participants use it to register themselves for the purpose of the GPS-based live tracking and tracing system.</p>
         </article>
       </section>
 
