@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <article>
       <h1>Home</h1>
-      {/* Download my CV: <a href="/docs/cv.pdf">Dutch</a> | <a href="/docs/cv_en.pdf">English</a> */}
+      Download my CV: <a href="/docs/cv.pdf">Dutch</a> | <a href="/docs/cv_en.pdf">English</a>
 
       <section id="skills">
         <h2>Skills</h2>
