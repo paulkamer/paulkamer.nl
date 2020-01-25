@@ -1,11 +1,17 @@
 import React from 'react';
 
-import './FooterBar.css';
+import './FooterBar.scss';
 
 const FooterBar = () => {
   return (
-    <footer>
-      Last updated January 2020
+    <footer className="footerbar">
+      <a href="https://github.com/paulkamer/" className="footerbar__icon" target="_blank" rel="noopener noreferrer">
+        <img src="https://unpkg.com/simple-icons@latest/icons/github.svg" alt="Github" />
+      </a>
+      <a href="https://www.linkedin.com/in/paulkamer/" className="footerbar__icon" target="_blank" rel="noopener noreferrer">
+        <img src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" alt="LinkedIn" />
+      </a>
+      <a href="mailto:paulkamer@gmail.com" className="footerbar__email">@</a> | last updated January 2020
     </footer>
   );
 }

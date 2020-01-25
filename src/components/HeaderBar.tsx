@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './HeaderBar.css';
+import './HeaderBar.scss';
 
 const HeaderBar = () => {
   return (

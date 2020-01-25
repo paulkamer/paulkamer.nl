@@ -1,0 +1,65 @@
+@import '../styles/variables';
+
+section + section {
+  margin-top: 3em;
+}
+
+.skills {
+  &__skillslist {
+    max-width: 35em;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+
+      &::after {
+        padding: 0 0.5em;
+        content: "\2022";
+      }
+
+      &:last-of-type::after {
+        content: none;
+      }
+    }
+  }
+}
+
+.jobs {
+  .job {
+    p {
+      margin: 0;
+    }
+
+    &__job-details {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &__tenure {
+      font-size: smaller;
+      color: $color-grey;
+    }
+
+    &__company-logo {
+      display: flex;
+      flex-shrink: 0;
+      width: 80px;
+      height: 80px;
+      margin-right: 1em;
+      overflow: hidden;
+      border: 1px solid $color-black;
+      border-radius: 50%;
+
+      a {
+        display: flex;
+      }
+
+      img {
+        width: 80px;
+        padding: 5px;
+        margin: auto;
+      }
+    }
+  }
+}

@@ -13,6 +13,7 @@
     "@types/react-dom": "^16.9.4",
     "@types/react-router-dom": "^5.1.3",
     "gh-pages": "^2.1.1",
+    "node-sass-chokidar": "^1.4.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
@@ -23,6 +24,8 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-scripts build",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "yarn run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "test": "react-scripts test",
     "test:lint:css": "stylelint \"src/**/*.css\"",
     "eject": "react-scripts eject",
@@ -47,6 +50,7 @@
   "devDependencies": {
     "react-app-rewired": "^2.1.5",
     "stylelint": "^13.0.0",
+    "stylelint-config-recess-order": "^2.0.3",
     "stylelint-config-standard": "^19.0.0",
     "stylelint-webpack-plugin": "^1.2.1"
   }

@@ -44,9 +44,9 @@ const ProjectsPage = () => {
           <li>AWS DynamoDB</li>
         </ul>
       </article>
-
+      <hr/>
       <article>
-        <h2>worldfootball.com (offline)</h2>
+        <h2>worldfootball</h2>
         <p className="intro">TODO</p>
 
         <h3>Technology</h3>
@@ -58,11 +58,11 @@ const ProjectsPage = () => {
           <li>Redis, Resque</li>
         </ul>
       </article>
-
+      <hr/>
       <article>
-        <h2>Air-Attack.com (offline)</h2>
+        <h2>Air-Attack</h2>
 
-        <p className="intro">A military aviation-related hobby website that I ran for several years.</p>
+        <p className="intro">Air-Attack.com was military aviation-related hobby website that I ran for several years.</p>
 
         <h3>Technology</h3>
         <ul>

@@ -1,0 +1,30 @@
+@import '../styles/variables';
+
+$height: 75px;
+$avatar_diameter: 45px;
+
+.HeaderBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: $height;
+  color: $color-white;
+  background-color: $header-bg-color;
+}
+
+.HeaderBar a {
+  color: $color-white;
+  text-decoration: none;
+}
+
+.HeaderBar .avatar {
+  width: $avatar_diameter;
+  height: $avatar_diameter;
+  border: 2px solid $color-white;
+  border-radius: 50%;
+}
+
+.HeaderBar h1 {
+  padding-left: 0.5em;
+}

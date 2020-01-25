@@ -6,24 +6,23 @@ import ProjectsPage from './ProjectsPage';
 import HeaderBar from '../components/HeaderBar';
 import FooterBar from '../components/FooterBar';
 
-import './App.css';
+import '../styles/variables.scss';
+import './App.scss';
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <HeaderBar/>
-        <main>
-          <Switch>
-            <Route>
-              <Route exact path="/" component={Home} />
-              <Route path="/projects/" component={ProjectsPage} />
-            </Route>
-          </Switch>
-        </main>
+      <HeaderBar/>
+      <main>
+        <Switch>
+          <Route>
+            <Route exact path="/" component={Home} />
+            <Route path="/projects/" component={ProjectsPage} />
+          </Route>
+        </Switch>
+      </main>
 
-        <FooterBar/>
-      </div>
+      <FooterBar/>
     </Router>
   );
 }
