@@ -1,13 +1,12 @@
 @import '../styles/variables';
 
-section + section {
-  margin-top: 3em;
-}
-
 .skills {
+  margin-top: 2em;
+
   &__skillslist {
     max-width: 35em;
-    padding: 0;
+    padding: 1em 0 0 0;
+    margin: 0;
     list-style: none;
 
     li {
@@ -26,7 +25,11 @@ section + section {
 }
 
 .jobs {
+  margin-top: 2em;
+
   .job {
+    margin-bottom: 1em;
+
     p {
       margin: 0;
     }
@@ -62,4 +65,8 @@ section + section {
       }
     }
   }
+}
+
+.projects {
+  margin-top: 2em;
 }

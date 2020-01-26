@@ -11,7 +11,9 @@ const FooterBar = () => {
       <a href="https://www.linkedin.com/in/paulkamer/" className="footerbar__icon" target="_blank" rel="noopener noreferrer">
         <img src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" alt="LinkedIn" />
       </a>
-      <a href="mailto:paulkamer@gmail.com" className="footerbar__email">@</a> | last updated January 2020
+      <a href="mailto:paulkamer@gmail.com" className="footerbar__icon" target="_blank" rel="noopener noreferrer">
+        <img src="/images/mail.svg" alt="email" />
+      </a> | last updated January 2020
     </footer>
   );
 }

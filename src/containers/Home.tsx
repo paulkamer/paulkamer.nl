@@ -16,30 +16,36 @@ const Home = () => {
       tenure: 'dec 2016 - current',
       logo_url: '/images/logo-startme.png',
       website_url: 'https://start.me',
-      text: <p>start.me is an online start page/bookmark manager for both individuals and organisations.</p>
+      text: <p>
+        start.me is an online start page/bookmark manager for both individuals and organisations.<br/>
+        As a Senior Web Developer and later Tech Lead, I've worked on numerous front-end, backend and infrastructure-related projects.<br/>
+      </p>
     },
     {
       company: 'Global Sports Media / Perform Group',
       tenure: 'jan 2010 - nov 2016',
-      logo_url: '/images/logo-perform.png',
+      logo_url: '/images/logo-perform.svg',
       website_url: 'https://www.statsperform.com',
-      text: <p>Global Sports Media (GSM) collects and syndicates sports statistics, via a REST api, FTP push service and hosted (white-label) websites and widgets.</p>
+      text: <p>
+        Global Sports Media (GSM) collects and syndicates sports statistics, via a REST api, FTP push service and hosted (white-label) websites and widgets.<br/>
+        After being fully acquired by Perform Group, I've worked, amoung other things, as a Software Architect on a project to introduce a new sports data collection platform.
+      </p>
     },
     {
       company: 'Sport-Track / MyLaps',
       tenure: 'may 2007 - dec 2009',
       logo_url: '/images/logo-mylaps.svg',
       website_url: 'https://www.mylaps.com',
-      text: <p>As a web developer I worked on a back-end portal (PHP), which used an Oracle database.
-        Using this portal, organisers could manage their sports events.
-        Participants use it to register themselves for the purpose of the GPS-based live tracking and tracing system.
-      </p>
+      text: <p>As a web developer I worked on a back-end portal (PHP), which used an Oracle database. Using this portal, organisers could manage their sports events. Participants use it to register themselves for the purpose of the GPS-based live tracking and tracing system.</p>
     }
   ]
 
   return (
     <article>
-      Download my CV: <a href="/docs/cv.pdf">Dutch</a> | <a href="/docs/cv_en.pdf">English</a>
+      <p>
+        Paul Kamer - Full-stack web developer based in The Hague, Netherlands.<br/>
+        Download my CV: <a href="/docs/cv.pdf">Dutch</a> | <a href="/docs/cv_en.pdf">English</a>
+      </p>
 
       <section className="skills">
         <h2>Skills</h2>
@@ -52,6 +58,7 @@ const Home = () => {
 
       <section className="jobs">
         <h2>Jobs</h2>
+
         {jobs.map((job, index) => {
           return <article key={`job_${index}`} className="job">
             <h3>{job.company}<span className="job__tenure"> - {job.tenure}</span></h3>
@@ -65,8 +72,8 @@ const Home = () => {
         })}
       </section>
 
-      <section>
-        <h2 id="projects">Projects</h2>
+      <section className="projects">
+        <h2 >Projects</h2>
         See <Link to="/projects/">Projects page</Link>
       </section>
     </article>
