@@ -1,18 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ProjectsPage = () => {
+const ClinicaltrialsmonitorPage = () => {
   return (
     <section>
       <nav>
-        <Link to="/">Home</Link> > Projects
+        <Link to="/">Home</Link> > <Link to="/projects/">Projects</Link> > ClinicalTrials monitor
       </nav>
-      <h1>Projects</h1>
 
-      <article>
-        <h2>ClinicalTrials.gov monitor (WIP)</h2>
+      <h1>ClinicalTrials monitor</h1>
 
-        <p className="intro">A personal project to receive alerts when clinical trials are updated on clinicaltrials.gov.</p>
+      <p className="intro">A personal project to receive alerts when clinical trials are updated on clinicaltrials.gov.</p>
         <p>
           The clinicaltrials.gov is a website provided by the U.S. National Library of Medicine. It is a database of privately and publicly funded clinical studies conducted around the world.
         </p>
@@ -47,37 +45,8 @@ const ProjectsPage = () => {
           <li>Serverless Framework in combination with AWS CloudFormation</li>
           <li>AWS DynamoDB</li>
         </ul>
-      </article>
-      <hr/>
-      <article>
-        <h2>worldfootball</h2>
-
-        <h3>Technology</h3>
-        <ul>
-          <li>Ruby, Ruby On Rails</li>
-          <li>React: Redux, Jest, server-side rendering</li>
-          <li>AWS (EC2, S3, ElasticSearch)</li>
-          <li>Docker, docker-compose, docker-machine</li>
-          <li>Redis, Resque</li>
-        </ul>
-      </article>
-      <hr/>
-      <article>
-        <h2>Air-Attack</h2>
-
-        <p className="intro">Air-Attack.com was military aviation-related hobby website that I ran for several years.</p>
-
-        <h3>Technology</h3>
-        <ul>
-          <li>Python, Django</li>
-          <li>PHP, Symfony 2</li>
-          <li>MySQL</li>
-          <li>ElasticSearch</li>
-          <li>Apache</li>
-        </ul>
-      </article>
     </section>
   );
 }
 
-export default ProjectsPage;
+export default ClinicaltrialsmonitorPage;

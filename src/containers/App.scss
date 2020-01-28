@@ -1,10 +1,20 @@
 @import '../styles/variables';
 
-main {
+.app-main {
   display: flex;
+  flex-direction: column;
   flex-grow: 1;
-  padding: 4em;
+  width: 100%;
   max-width: $main-max-width;
+  padding: 1em 4em 4em 4em;
   margin: auto;
   background-color: $main-bg-color;
+
+  .page-container {
+    width: 100%;
+
+    article {
+      padding-bottom: 2em;
+    }
+  }
 }
