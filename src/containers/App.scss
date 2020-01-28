@@ -3,8 +3,8 @@
 main {
   display: flex;
   flex-grow: 1;
-  max-width: 900px;
   padding: 4em;
+  max-width: $main-max-width;
   margin: auto;
   background-color: $main-bg-color;
 }

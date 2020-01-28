@@ -11,20 +11,50 @@ $avatar_diameter: 45px;
   height: $height;
   color: $color-white;
   background-color: $header-bg-color;
-}
 
-.HeaderBar a {
-  color: $color-white;
-  text-decoration: none;
-}
+  a {
+    color: $color-white;
+    text-decoration: none;
+  }
 
-.HeaderBar .avatar {
-  width: $avatar_diameter;
-  height: $avatar_diameter;
-  border: 2px solid $color-white;
-  border-radius: 50%;
-}
+  .avatar {
+    width: $avatar_diameter;
+    height: $avatar_diameter;
+    margin-right: 1em;
+    border: 2px solid $color-white;
+    border-radius: 50%;
+  }
 
-.HeaderBar h1 {
-  padding-left: 0.5em;
+  &__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: $main-max-width;
+  }
+
+  &__name {
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+  }
+
+  &__menu {
+    ul {
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: inline;
+        padding: 0.2em 1em;
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+
+      li:not(:last-child) {
+        border-right: 1px solid $color-white;
+      }
+    }
+  }
 }
