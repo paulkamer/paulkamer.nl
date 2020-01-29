@@ -1,0 +1,16 @@
+@import '../styles/variables';
+
+.screenshots {
+  display: flex;
+  flex-direction: row;
+
+  &__screenshot {
+    margin: 0 1em;
+  }
+
+  img {
+    max-width: 200px;
+    height: 100px;
+    border: 1px solid $color-black;
+  }
+}
