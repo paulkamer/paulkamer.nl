@@ -43,7 +43,7 @@ const Home = () => {
   return (
     <article>
       <p>
-        Paul Kamer - Full-stack web developer based in The Hague, Netherlands.<br/>
+        Paul Kamer {'\u2022'} Full-stack web developer based in The Hague, Netherlands.<br/>
         Download my CV: <a href="/docs/cv.pdf">Dutch</a> | <a href="/docs/cv_en.pdf">English</a>
       </p>
 

@@ -33,3 +33,12 @@ h1 {
 h3 {
   padding: 0.5em 0;
 }
+
+a {
+  color: $color-dark-red;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
