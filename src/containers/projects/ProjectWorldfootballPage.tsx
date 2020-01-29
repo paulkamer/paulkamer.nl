@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import { Breadcrumbtrail } from '../../components/Breadcrumbtrail'
 
 const ProjectWorldfootballPage = () => {
   return (
     <section>
-      <nav>
-        <Link to="/">Home</Link> > <Link to="/projects/">Projects</Link> > Worldfootball
-      </nav>
+      <Breadcrumbtrail trail={[{ to: '/projects/', label: 'Projects' }, { label: 'Worldfootball' }]} />
 
       <h1>Worldfootball</h1>
 

@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import { Breadcrumbtrail } from '../../components/Breadcrumbtrail'
 
 const ClinicaltrialsmonitorPage = () => {
   return (
     <section>
-      <nav>
-        <Link to="/">Home</Link> > <Link to="/projects/">Projects</Link> > ClinicalTrials monitor
-      </nav>
+      <Breadcrumbtrail trail={[{ to: '/projects/', label: 'Projects' }, { label: 'ClinicalTrials monitor' }]} />
+
 
       <h1>ClinicalTrials monitor</h1>
 

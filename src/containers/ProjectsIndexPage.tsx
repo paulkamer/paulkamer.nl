@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import { Breadcrumbtrail } from '../components/Breadcrumbtrail'
+
 const ProjectsIndexPage = () => {
   return (
     <section>
-      <nav>
-        <Link to="/">Home</Link> > Projects
-      </nav>
-
+      <Breadcrumbtrail trail={[{ label: 'Projects' }]} />
       <h1>Projects</h1>
 
       <article>
@@ -20,7 +19,7 @@ const ProjectsIndexPage = () => {
       </article>
 
       <article>
-        <h2>worldfootball</h2>
+        <h2>Worldfootball</h2>
 
         <p>For further details, click <Link to="/projects/worldfootball/">here</Link>.</p>
       </article>
@@ -28,12 +27,12 @@ const ProjectsIndexPage = () => {
       <article>
         <h2>Air-Attack</h2>
 
-        <p className="intro">Air-Attack.com was military aviation-related hobby website that I ran for several years.</p>
+        <p className="intro">Air-Attack was military aviation-related hobby website that I ran for several years.</p>
 
         <h3>Technology</h3>
         <ul>
-          <li>Python, Django</li>
-          <li>PHP, Symfony 2</li>
+          <li>Back-end: Python, Django</li>
+          <li>Front-end: PHP, Symfony 2</li>
           <li>MySQL</li>
           <li>ElasticSearch</li>
           <li>Apache</li>
