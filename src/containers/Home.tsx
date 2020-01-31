@@ -5,10 +5,27 @@ import './Home.scss';
 
 const Home = () => {
   const skills = [
-    'Ruby','PostgreSQL','Node.js','Vue.js','Nuxt.js','React','Redis','Git',
-    'Elasticsearch','RabbitMQ','Resque','ArchiMate','UML','Docker','CI/CD',
-    'Nginx','PHP','MySQL','Oracle'
-  ]
+    {
+      discipline: 'Front-end',
+      skills: ['Vue.js','Nuxt.js','React'],
+    },
+    {
+      discipline: 'Back-end',
+      skills: ['Ruby','Node.js','PHP','RabbitMQ','Resque']
+    },
+    {
+      discipline: 'Databases',
+      skills: ['PostgreSQL', 'Redis','Elasticsearch', 'MySQL','Oracle']
+    },
+    {
+      discipline: 'Infrastructure',
+      skills: ['Docker', 'Nginx', 'Apache', 'AWS', 'Serverless framework']
+    },
+    {
+      discipline: 'Misc',
+      skills: ['Git','UML','CI/CD','ArchiMate']
+    }
+  ];
 
   const jobs = [
     {
@@ -18,7 +35,7 @@ const Home = () => {
       website_url: 'https://start.me',
       text: <p>
         start.me is an online start page/bookmark manager for both individuals and organisations.<br/>
-        As a Senior Web Developer and later Tech Lead, I've worked on numerous front-end, backend and infrastructure-related projects.<br/>
+        As a Senior Web Developer and later Tech Lead, I've worked on numerous front-end, back-end and infrastructure-related projects.<br/>
       </p>
     },
     {
@@ -27,7 +44,7 @@ const Home = () => {
       logo_url: '/images/logo-perform.svg',
       website_url: 'https://www.statsperform.com',
       text: <p>
-        Global Sports Media (GSM) collects and syndicates sports statistics, via a REST api, FTP push service and hosted (white-label) websites and widgets.<br/>
+        Global Sports Media (GSM) collects and syndicates sports statistics, via a REST API, FTP push service and hosted (white-label) websites and widgets.<br/>
         After being fully acquired by Perform Group, I've worked, amoung other things, as a Software Architect on a project to introduce a new sports data collection platform.
       </p>
     },
@@ -50,9 +67,20 @@ const Home = () => {
       <section className="skills">
         <h2>Skills</h2>
         <ul className="skills__skillslist">
-          {skills.map((value, index) => {
-            return <li key={index}>{value}</li>
-          })}
+          {
+            skills.map((discipline, index) => {
+              return <li key={`sk_${index}`}>
+                <span className="discipline">{discipline.discipline}:</span>
+                <ul className="skills_sublist">
+                  {
+                    discipline.skills.map((skill, si) =>
+                      <li key={`${index}_${si}`} className="skill">{skill}</li>
+                    )
+                  }
+                </ul>
+              </li>
+            })
+          }
         </ul>
       </section>
 
@@ -74,7 +102,7 @@ const Home = () => {
 
       <section className="projects">
         <h2 >Projects</h2>
-        See <Link to="/projects/">Projects page</Link>
+        For an impression of personal projects I worked on, see the <Link to="/projects/">Projects page</Link>.
       </section>
     </article>
   );

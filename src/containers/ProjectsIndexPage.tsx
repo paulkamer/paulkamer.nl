@@ -21,23 +21,28 @@ const ProjectsIndexPage = () => {
       <article>
         <h2>Worldfootball</h2>
 
-        <p>For further details, click <Link to="/projects/worldfootball/">here</Link>.</p>
+        <p>
+          A football results and statistics website, written in React and Ruby. Read <Link to="/projects/worldfootball/">more</Link>.
+        </p>
       </article>
 
       <article>
         <h2>Air-Attack</h2>
 
-        <p className="intro">Air-Attack was military aviation-related hobby website that I ran for several years.</p>
+        <p>
+          Air-Attack was military aviation-related hobby website that I ran for several years.*<br/>
+        </p>
 
         <h3>Technology</h3>
         <ul>
+          <li>Front-end: PHP, Symfony 2, Apache</li>
           <li>Back-end: Python, Django</li>
-          <li>Front-end: PHP, Symfony 2</li>
-          <li>MySQL</li>
-          <li>ElasticSearch</li>
-          <li>Apache</li>
+          <li>Infrastructure: Amazon EC2</li>
+          <li>DB & Search: MySQL, ElasticSearch</li>
         </ul>
       </article>
+
+      <footer className="footnotes">*The domain has since been taken over by spammers it seems.</footer>
     </section>
   );
 }

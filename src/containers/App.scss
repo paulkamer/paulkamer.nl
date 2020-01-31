@@ -12,9 +12,22 @@
 
   .page-container {
     width: 100%;
+    height: 100%;
+
+    > section {
+      position: relative;
+      height: 100%;
+    }
 
     article {
-      padding-bottom: 2em;
+      padding-bottom: 1em;
+    }
+
+    .footnotes {
+      position: absolute;
+      bottom: 0;
+      padding: 0 1em;
+      font-size: small;
     }
   }
 

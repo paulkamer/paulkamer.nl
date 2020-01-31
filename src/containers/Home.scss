@@ -5,21 +5,33 @@
 
   &__skillslist {
     max-width: 35em;
-    padding: 1em 0 0 0;
-    margin: 0;
+    padding: 0;
     list-style: none;
 
     li {
       display: inline-block;
 
-      &::after {
-        padding: 0 0.5em;
-        content: "\2022";
-      }
+      &.skill {
+        &::after {
+          padding: 0 0.5em;
+          content: "\2022";
+        }
 
-      &:last-of-type::after {
-        content: none;
+        &:last-of-type::after {
+          content: none;
+        }
       }
+    }
+
+    .discipline {
+      padding-right: 0.5em;
+      font-weight: bold;
+      line-height: 1.5em;
+    }
+
+    .skills_sublist {
+      display: inline;
+      padding: 0;
     }
   }
 }
@@ -28,10 +40,12 @@
   margin-top: 2em;
 
   .job {
-    margin-bottom: 1em;
+    $logo-diameter: 80px;
 
-    p {
-      margin: 0;
+    margin-bottom: 1.5em;
+
+    h3 {
+      margin: 0.5em 0;
     }
 
     &__job-details {
@@ -48,8 +62,8 @@
     &__company-logo {
       display: flex;
       flex-shrink: 0;
-      width: 80px;
-      height: 80px;
+      width: $logo-diameter;
+      height: $logo-diameter;
       margin-right: 1em;
       overflow: hidden;
       border: 1px solid $color-black;
@@ -60,7 +74,7 @@
       }
 
       img {
-        width: 80px;
+        width: $logo-diameter;
         padding: 5px;
         margin: auto;
       }
