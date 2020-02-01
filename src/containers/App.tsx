@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch,  Route } from 'react-router-dom';
 
 import Home from './Home';
 import HeaderBar from '../components/HeaderBar';
+import Submenu from '../components/Submenu';
 import FooterBar from '../components/FooterBar';
 
 import ProjectsIndexPage from './ProjectsIndexPage';
@@ -18,6 +19,9 @@ function App() {
     <Router>
       <HeaderBar/>
       <main className="app-main">
+        <div className="app-main__submenu">
+          <Submenu />
+        </div>
         <Switch>
           <Route>
             <Route exact path="/" component={Home} />

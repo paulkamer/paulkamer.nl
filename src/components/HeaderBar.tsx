@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Submenu from './Submenu';
+
 import './HeaderBar.scss';
 
 const HeaderBar = () => {
@@ -16,11 +18,8 @@ const HeaderBar = () => {
             </Link>
         </div>
 
-        <div className="HeaderBar__menu">
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/projects/">Projects</Link></li>
-          </ul>
+        <div className="HeaderBar__submenu">
+          <Submenu />
         </div>
       </div>
     </header>

@@ -1,4 +1,5 @@
 @import '../styles/variables';
+@import '../styles/mixins';
 
 $height: 75px;
 $avatar_diameter: 45px;
@@ -6,11 +7,16 @@ $avatar_diameter: 45px;
 .HeaderBar {
   display: flex;
   flex-direction: row;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   height: $height;
   color: $color-white;
   background-color: $header-bg-color;
+
+  h1 {
+    margin: 0;
+  }
 
   a {
     color: $color-white;
@@ -38,23 +44,9 @@ $avatar_diameter: 45px;
     padding: 0 1em;
   }
 
-  &__menu {
-    ul {
-      padding: 0;
-      list-style: none;
-
-      li {
-        display: inline;
-        padding: 0 1em;
-
-        a:hover {
-          text-decoration: underline;
-        }
-      }
-
-      li:not(:last-child) {
-        border-right: 1px solid $color-white;
-      }
+  &__submenu {
+    @include mobile {
+      display: none;
     }
   }
 }
