@@ -33,6 +33,18 @@ const ProjectWorldfootballPage = () => {
 
       <h1>Worldfootball</h1>
 
+      <p>
+        Worldfootball was a collaboration with datasportsgroup (DSG) and the founder of start.me (see <a href="/">jobs</a>). <br/>
+        DSG covers over 400 football competitions worldwide. For many top leagues they have detailed player profile and career stats data available.
+      </p>
+
+      <p>
+        Worldfootball used DSG's XML API to periodically synchronize it's PostgreSQL database. On match days, live matches were synced several times a minute.<br/>
+        Furthermore, worldfootball offered embeddable fixture and league table widgets, which were used by hundreds of website.
+      </p>
+
+      <p>Unfortunately, worldfootball had to be taken offline because of lack of time and focus.</p>
+
       <h3>Screenshots</h3>
       <Screenshots screenshots={wfScreenshots}/>
 

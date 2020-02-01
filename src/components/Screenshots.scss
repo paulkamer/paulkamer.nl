@@ -3,6 +3,7 @@
 .screenshots {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 
   &__screenshot {
     margin: 0 1em;
