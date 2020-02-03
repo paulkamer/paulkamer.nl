@@ -34,27 +34,25 @@ const ProjectWorldfootballPage = () => {
       <h1>Worldfootball</h1>
 
       <p>
-        Worldfootball was a collaboration with datasportsgroup (DSG) and the founder of start.me (see <a href="/">jobs</a>). <br/>
-        DSG covers over 400 football competitions worldwide. For many top leagues they have detailed player profile and career stats data available.
+        Worldfootball.com was a collaboration between DataSportsGroup (DSG) and the founder of start.me (see <a href="/">jobs</a>) for whom I work for. <br/>
+        DSG covers over 400 football competitions worldwide and for many top leagues they have detailed player profile and career statistics available.
       </p>
 
-      <p>
-        Worldfootball used DSG's XML API to periodically synchronize it's PostgreSQL database. On match days, live matches were synced several times a minute.<br/>
-        Furthermore, worldfootball offered embeddable fixture and league table widgets, which were used by hundreds of website.
-      </p>
+      <p>All the football data covered by DSG was available on worldfootball. Besides the website itself, worldfootball also powered a widgets/while-label platform. We offered embeddable fixture and league table widgets, which were used by hundreds of websites.</p>
 
-      <p>Unfortunately, worldfootball had to be taken offline because of lack of time and focus.</p>
+      <p>Unfortunately, worldfootball had to be taken offline because start.me required all our time and focus.</p>
 
       <h3>Screenshots</h3>
       <Screenshots screenshots={wfScreenshots}/>
 
       <h3>Technology</h3>
         <p>
-          Live results and post-match stats were synced by <a href="https://github.com/resque/resque" target="_blank" rel="noopener noreferrer">Resque</a>-backed background jobs (written in Ruby) from the <a href="https://datasportsgroup.com/" target="_blank" rel="noopener noreferrer">datasportsgroup</a> API.<br/>
-          - images S3
-          - active cache invalidations using Cloudflare API
-          - all data searchable, using ElasticSearch
-          - widget generator/configurator
+          Live results and post-match stats were synced by <a href="https://github.com/resque/resque" target="_blank" rel="noopener noreferrer">Resque</a>-backed
+          background jobs (written in Ruby) from the <a href="https://datasportsgroup.com/" target="_blank" rel="noopener noreferrer">DataSportsGroup</a> API.<br/>
+          Worldfootball leaned heavily on Cloudflare, for edge-caching. We devised a mechanism to actively purge specific resources when, for example, match results were updated.
+        </p>
+        <p>
+          We used an ElasticSearch database for the search-feature, which allowed visitors to look up teams, players and competitions.
         </p>
 
         <h4>Technology</h4>
