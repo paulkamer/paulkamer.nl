@@ -33,6 +33,10 @@
     height: 100%;
     padding-bottom: 1em;
 
+    p + p {
+      margin-bottom: 1em;
+    }
+
     > section {
       position: relative;
       height: 100%;
