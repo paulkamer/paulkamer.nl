@@ -33,36 +33,46 @@ const Home = () => {
       tenure: 'dec 2016 - current',
       logo_url: '/images/logo-startme.png',
       website_url: 'https://start.me',
-      text: <p>
-        start.me is an online start page/bookmark manager for both individuals and organisations.<br/>
-        As a Senior Web Developer and later Tech Lead, I've worked on numerous front-end, back-end and infrastructure-related projects.<br/>
-      </p>
+      text: <section>
+        <p>start.me is an online start page/bookmark manager for both individuals and organisations.</p>
+        <p>As a Senior Web Developer, and later Tech Lead, I've worked on numerous front-end, back-end and infrastructure-related projects.</p>
+      </section>
     },
     {
       company: 'Global Sports Media / Perform Group',
       tenure: 'jan 2010 - nov 2016',
       logo_url: '/images/logo-perform.svg',
       website_url: 'https://www.statsperform.com',
-      text: <p>
-        Global Sports Media (GSM) collects and syndicates sports statistics, via a REST API, FTP push service and hosted (white-label) websites and widgets.<br/>
-        After being fully acquired by Perform Group, I've worked, amoung other things, as a Software Architect on a project to introduce a new sports data collection platform.
-      </p>
+      text: <section>
+        <p>Global Sports Media (GSM) collects and syndicates sports statistics via a REST API, FTP push service and hosted (white-label) websites and widgets.</p>
+        <p>After being fully acquired by Perform Group, I've worked as a Software Architect on, amongst other thing, a project to introduce a new sports data collection platform.</p>
+      </section>
     },
     {
       company: 'Sport-Track / MyLaps',
       tenure: 'may 2007 - dec 2009',
       logo_url: '/images/logo-mylaps.svg',
       website_url: 'https://www.mylaps.com',
-      text: <p>As a web developer I worked on a back-end portal (PHP), which used an Oracle database. Using this portal, organisers could manage their sports events. Participants use it to register themselves for the purpose of the GPS-based live tracking and tracing system.</p>
+      text: <section>
+        <p>Sport-Track developed a GPS-based live tracking and tracing system for sporting events.</p>
+        <p>
+          As a web developer I worked on a back-end portal written in PHP, which was backed by an Oracle database.
+          Using this portal, organisers could manage their sporting events. It also served as a registration portal for participants.
+        </p>
+      </section>
     }
   ]
 
   return (
     <article>
-      <p>
-        Paul Kamer {'\u2022'} Full-stack web developer based in The Hague, Netherlands.<br/>
-        Download my CV: <a href="/docs/cv.pdf">Dutch</a> | <a href="/docs/cv_en.pdf">English</a>
-      </p>
+      <section className="bio">
+        <h2>Bio</h2>
+
+        <p>
+          Paul Kamer {'\u2013'} Full-stack web developer based in The Hague, Netherlands.<br/>
+          Download my CV: <a href="/docs/cv.pdf">Dutch</a> | <a href="/docs/cv_en.pdf">English</a>
+        </p>
+      </section>
 
       <section className="skills">
         <h2>Skills</h2>
