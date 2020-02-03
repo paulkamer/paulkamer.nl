@@ -9,7 +9,7 @@ const ProjectTrialmonitorPage = () => {
     <section className="trialmonitor-page">
       <Breadcrumbtrail trail={[{ to: '/projects/', label: 'Projects' }, { label: 'ClinicalTrials monitor' }]} />
 
-      <h1>ClinicalTrials monitor</h1>
+      <h1>ClinicalTrials.gov monitor</h1>
 
       <p className="intro">A personal project to receive alerts when clinical trials are updated on clinicaltrials.gov.</p>
         <p>
@@ -19,7 +19,7 @@ const ProjectTrialmonitorPage = () => {
           Unfortunately, looking up a particular trial and to determine what it's last changes are takes quite a bit of effort. Personally, I monitor a few dozen trials on a weekly basis, so wanted to automate this process.
         </p>
         <p>
-          Luckily, clinicaltrials.gov provides an API, so I've built a "clinicaltrials monitor" to receive automatic updates of the trials that I'm interested in. An AWS Lambda function is executed several times per day to
+          Luckily, clinicaltrials.gov provides an API, so I've built a "clinicaltrials monitor" to receive automatic updates of the trials that I'm interested in. An AWS Step Functions workflow is executed several times per day to
           check if certain trials (stored in an AWS DynamoDB table) have been updated. Then, a diff of the changed trial records is determined, and a notification email is sent.
         </p>
 

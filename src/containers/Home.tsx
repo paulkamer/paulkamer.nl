@@ -6,10 +6,6 @@ import './Home.scss';
 const Home = () => {
   const skills = [
     {
-      discipline: 'Front-end',
-      skills: ['Vue.js','Nuxt.js','React'],
-    },
-    {
       discipline: 'Back-end',
       skills: ['Ruby','Node.js','PHP','RabbitMQ','Resque']
     },
@@ -19,11 +15,15 @@ const Home = () => {
     },
     {
       discipline: 'Infrastructure',
-      skills: ['Docker', 'Nginx', 'Apache', 'AWS', 'Serverless framework']
+      skills: ['Heroku', 'Cloud (AWS)', 'Serverless', 'Docker']
+    },
+    {
+      discipline: 'Front-end',
+      skills: ['Vue.js','Nuxt.js','React', 'Riot.js'],
     },
     {
       discipline: 'Misc',
-      skills: ['Git','UML','CI/CD','ArchiMate']
+      skills: [ 'Nginx', 'Apache', 'Git','UML','CI/CD','ArchiMate']
     }
   ];
 
@@ -67,9 +67,11 @@ const Home = () => {
     <article>
       <section className="bio">
         <h2>Bio</h2>
-
         <p>
           Paul Kamer {'\u2013'} Full-stack web developer based in The Hague, Netherlands.<br/>
+          My main interests are in back-end development, databases, architecture and infrastructure.
+        </p>
+        <p>
           Download my CV: <a href="/docs/cv.pdf">Dutch</a> | <a href="/docs/cv_en.pdf">English</a>
         </p>
       </section>
@@ -79,12 +81,12 @@ const Home = () => {
         <ul className="skills__skillslist">
           {
             skills.map((discipline, index) => {
-              return <li key={`sk_${index}`}>
-                <span className="discipline">{discipline.discipline}:</span>
-                <ul className="skills_sublist">
+              return <li key={`sk_${index}`} className="skillsgroup">
+                <span className="skillsgroup__discipline">{discipline.discipline}:</span>
+                <ul className="skillsgroup__skillslist">
                   {
                     discipline.skills.map((skill, si) =>
-                      <li key={`${index}_${si}`} className="skill">{skill}</li>
+                      <li key={`${index}_${si}`} className="skillsgroup__skill">{skill}</li>
                     )
                   }
                 </ul>
@@ -96,23 +98,24 @@ const Home = () => {
 
       <section className="jobs">
         <h2>Jobs</h2>
-
-        {jobs.map((job, index) => {
-          return <article key={`job_${index}`} className="job">
-            <h3>{job.company}<span className="job__tenure"> - {job.tenure}</span></h3>
-            <section className="job__job-details">
-              <div className="job__company-logo">
-                <a href={job.website_url} target="_blank" rel="noopener noreferrer"><img src={job.logo_url} alt={`${job.company} logo`} /></a>
-              </div>
-              {job.text}
-            </section>
-          </article>
-        })}
+        {
+          jobs.map((job, index) => {
+            return <article key={`job_${index}`} className="job">
+              <h3>{job.company}<span className="job__tenure"> - {job.tenure}</span></h3>
+              <section className="job__job-details">
+                <div className="job__company-logo">
+                  <a href={job.website_url} target="_blank" rel="noopener noreferrer"><img src={job.logo_url} alt={`${job.company} logo`} /></a>
+                </div>
+                {job.text}
+              </section>
+            </article>
+          })
+        }
       </section>
 
       <section className="projects">
         <h2 >Projects</h2>
-        For an impression of personal projects I worked on, see the <Link to="/projects/">Projects page</Link>.
+        For an impression of personal projects I've worked on, see the <Link to="/projects/">Projects page</Link>.
       </section>
     </article>
   );

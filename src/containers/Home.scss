@@ -8,10 +8,23 @@
     padding: 0;
     list-style: none;
 
-    li {
-      display: inline-block;
+    .skillsgroup {
+      display: block;
 
-      &.skill {
+      &__discipline {
+        padding-right: 0.5em;
+        font-weight: bold;
+        line-height: 1.5em;
+      }
+
+      &__skillslist {
+        display: inline;
+        padding: 0;
+      }
+
+      &__skill {
+        display: inline-block;
+
         &::after {
           padding: 0 0.5em;
           content: "\2022";
@@ -21,17 +34,6 @@
           content: none;
         }
       }
-    }
-
-    .discipline {
-      padding-right: 0.5em;
-      font-weight: bold;
-      line-height: 1.5em;
-    }
-
-    .skills_sublist {
-      display: inline;
-      padding: 0;
     }
   }
 }
