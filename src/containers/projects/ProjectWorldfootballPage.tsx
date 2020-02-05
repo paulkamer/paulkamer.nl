@@ -34,8 +34,8 @@ const ProjectWorldfootballPage = () => {
       <h1>Worldfootball</h1>
 
       <p>
-        Worldfootball.com was a collaborative project between <a href="https://datasportsgroup.com/" target="_blank" rel="noopener noreferrer">DataSportsGroup</a>
-        (DSG) and Arjen Robijn, the founder of start.me (see <a href="/#jobs">jobs</a>) for whom I work for.
+        Worldfootball.com was a collaborative project between <a href="https://datasportsgroup.com/" target="_blank" rel="noopener noreferrer">DataSportsGroup</a> (DSG)
+        and Arjen Robijn, the founder of start.me (see <a href="/#jobs">jobs</a>) for whom I work for.
       </p>
 
       <p>DSG covers over 400 football competitions worldwide, and for many top leagues they have detailed player profile and career statistics available.</p>
@@ -45,9 +45,11 @@ const ProjectWorldfootballPage = () => {
       </p>
 
       <p>
-        I personally took care of the design of the database, development of the front-end & back-end as well as the data synchronization processes. The UX/UI design
-        was created by Arjen Robijn & <a href="http://pauldejong.info/" target="_blank" rel="noopener noreferrer">Paul de Jong</a>.
+        I personally took care of the development of the entire platform: design of the database, development of the front-end, back-end and data
+        synchronization processes, and the infrastructure at Heroku and later AWS. <br/>
+        The UX/UI design was created by Arjen Robijn & <a href="http://pauldejong.info/" target="_blank" rel="noopener noreferrer">Paul de Jong</a>.
       </p>
+
       <p>Unfortunately, worldfootball had to be taken offline because start.me required all our time & focus.</p>
 
       <h3>Screenshots</h3>
