@@ -38,21 +38,26 @@ const ProjectWorldfootballPage = () => {
         DSG covers over 400 football competitions worldwide and for many top leagues they have detailed player profile and career statistics available.
       </p>
 
-      <p>All the football data covered by DSG was available on worldfootball. Besides the website itself, worldfootball also powered a widgets/while-label platform. We offered embeddable fixture and league table widgets, which were used by hundreds of websites.</p>
+      <p>All the football data covered by DSG was available on worldfootball. Besides the website itself, worldfootball also powered a widgets/white-label platform.
+        We offered embeddable fixture and league table widgets, which were used by hundreds of websites.
+      </p>
 
-      <p>Unfortunately, worldfootball had to be taken offline because start.me required all our time and focus.</p>
+      <p>Unfortunately, worldfootball had to be taken offline because start.me required all our time/focus.</p>
 
       <h3>Screenshots</h3>
       <Screenshots screenshots={wfScreenshots}/>
 
       <h3>Technology</h3>
         <p>
-          Live results and post-match stats were synced by <a href="https://github.com/resque/resque" target="_blank" rel="noopener noreferrer">Resque</a>-backed
-          background jobs (written in Ruby) from the <a href="https://datasportsgroup.com/" target="_blank" rel="noopener noreferrer">DataSportsGroup</a> API.<br/>
-          Worldfootball leaned heavily on Cloudflare, for edge-caching. We devised a mechanism to actively purge specific resources when, for example, match results were updated.
+          Live results and post-match stats were synced from the <a href="https://datasportsgroup.com/" target="_blank" rel="noopener noreferrer">DataSportsGroup</a> API
+          by <a href="https://github.com/resque/resque" target="_blank" rel="noopener noreferrer">Resque</a>-backed background jobs that were written
+          in <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noopener noreferrer">Ruby</a>.
         </p>
         <p>
-          We used an ElasticSearch database for the search-feature, which allowed visitors to look up teams, players and competitions.
+          Worldfootball leaned heavily on Cloudflare for edge-caching. We devised a mechanism to actively purge specific resources using Cloudflare's <a href="https://api.cloudflare.com/" target="_blank" rel="noopener noreferrer">API</a> when, for example, match results were updated.
+        </p>
+        <p>
+          We used an <a href="https://www.elastic.co/" target="_blank" rel="noopener noreferrer">ElasticSearch</a> database for the search feature, which allowed visitors to look up competitions, teams, players and venues.
         </p>
 
         <h4>Technology</h4>
@@ -62,13 +67,14 @@ const ProjectWorldfootballPage = () => {
               <li>React (incl. Redux, Jest)</li>
               <li>Sass (SCSS)</li>
               <li>Babel, ESLint</li>
-              <li>Pages are served by Express.js (including server-side rendering)</li>
+              <li>Served by Express.js with server-side rendering</li>
             </ul>
           </li>
           <li>Back-end:
             <ul>
               <li>API: Ruby on Rails</li>
-              <li>Background jobs: Ruby, Resque, Redis</li>
+              <li>Background jobs: Ruby, Redis, Resque</li>
+              <li>Data management: ActiveAdmin</li>
             </ul>
           </li>
           <li>Infrastructure:
