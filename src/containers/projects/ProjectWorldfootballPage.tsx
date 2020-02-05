@@ -34,22 +34,28 @@ const ProjectWorldfootballPage = () => {
       <h1>Worldfootball</h1>
 
       <p>
-        Worldfootball.com was a collaboration between DataSportsGroup (DSG) and the founder of start.me (see <a href="/">jobs</a>) for whom I work for. <br/>
-        DSG covers over 400 football competitions worldwide and for many top leagues they have detailed player profile and career statistics available.
+        Worldfootball.com was a collaborative project between <a href="https://datasportsgroup.com/" target="_blank" rel="noopener noreferrer">DataSportsGroup</a>
+        (DSG) and Arjen Robijn, the founder of start.me (see <a href="/#jobs">jobs</a>) for whom I work for.
       </p>
+
+      <p>DSG covers over 400 football competitions worldwide, and for many top leagues they have detailed player profile and career statistics available.</p>
 
       <p>All the football data covered by DSG was available on worldfootball. Besides the website itself, worldfootball also powered a widgets/white-label platform.
         We offered embeddable fixture and league table widgets, which were used by hundreds of websites.
       </p>
 
-      <p>Unfortunately, worldfootball had to be taken offline because start.me required all our time/focus.</p>
+      <p>
+        I personally took care of the design of the database, development of the front-end & back-end as well as the data synchronization processes. The UX/UI design
+        was created by Arjen Robijn & <a href="http://pauldejong.info/" target="_blank" rel="noopener noreferrer">Paul de Jong</a>.
+      </p>
+      <p>Unfortunately, worldfootball had to be taken offline because start.me required all our time & focus.</p>
 
       <h3>Screenshots</h3>
       <Screenshots screenshots={wfScreenshots}/>
 
       <h3>Technology</h3>
         <p>
-          Live results and post-match stats were synced from the <a href="https://datasportsgroup.com/" target="_blank" rel="noopener noreferrer">DataSportsGroup</a> API
+          Live results and post-match stats were synced from the DataSportsGroup API
           by <a href="https://github.com/resque/resque" target="_blank" rel="noopener noreferrer">Resque</a>-backed background jobs that were written
           in <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noopener noreferrer">Ruby</a>.
         </p>
