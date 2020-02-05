@@ -68,9 +68,11 @@ const Home = () => {
       <section className="bio">
         <h2>Bio</h2>
         <p>
-          Paul Kamer {'\u2013'} Full-stack web developer based in The Hague, Netherlands.<br/>
-          My main interests are in back-end development, databases, architecture and infrastructure.
+          I'm an experienced full-stack web developer, more inclined towards back-end development, based in The Hague, Netherlands.<br/>
+          My main interests & experience are: Ruby, Node.js, PHP, PostgreSQL, JS (vanilla, Vue.js & React.js), cloud & serverless.
         </p>
+
+        <p>I've worked in the sports (data) industry for over 8 years. The last 4 years I worked as a Tech Lead for start.me, an online start page/bookmark manager service.</p>
         <p>
           Download my CV: <a href="/docs/cv.pdf">Dutch</a> | <a href="/docs/cv_en.pdf">English</a>
         </p>

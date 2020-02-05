@@ -17,25 +17,26 @@ import './App.scss';
 function App() {
   return (
     <Router>
-      <HeaderBar/>
       <main className="app-main">
+        <HeaderBar/>
+
         <div className="app-main__submenu">
           <Submenu />
         </div>
         <Switch>
           <Route>
-            <Route exact path="/" component={Home} />
 
-            <div className="page-container">
+            <div className="app-main__page-container">
+              <Route exact path="/" component={Home} />
               <Route exact path="/projects/worldfootball/" component={ProjectWorldfootballPage} />
               <Route exact path="/projects/trialmonitor/" component={ClinicaltrialsmonitorPage} />
               <Route exact path="/projects/" component={ProjectsIndexPage} />
             </div>
           </Route>
         </Switch>
-      </main>
 
-      <FooterBar/>
+        <FooterBar/>
+      </main>
     </Router>
   );
 }

@@ -1,4 +1,11 @@
+@import '../styles/variables';
+@import '../styles/mixins';
+
 .breadcrumbtrail {
+  @include mobile {
+    padding-top: 1em;
+  }
+
   ul {
     padding: 0;
     list-style: none;
