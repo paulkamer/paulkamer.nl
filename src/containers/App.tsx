@@ -6,7 +6,7 @@ import HeaderBar from '../components/HeaderBar';
 import Submenu from '../components/Submenu';
 import FooterBar from '../components/FooterBar';
 
-import ProjectsIndexPage from './ProjectsIndexPage';
+import ProjectsIndexPage from './projects/ProjectsIndexPage';
 import ProjectWorldfootballPage from './projects/ProjectWorldfootballPage';
 import ClinicaltrialsmonitorPage from './projects/ProjectTrialmonitorPage';
 

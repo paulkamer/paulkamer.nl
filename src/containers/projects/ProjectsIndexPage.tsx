@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Breadcrumbtrail } from '../components/Breadcrumbtrail'
+import { Breadcrumbtrail } from '../../components/Breadcrumbtrail'
 
 const ProjectsIndexPage = () => {
   return (
@@ -23,6 +23,14 @@ const ProjectsIndexPage = () => {
 
         <p>
           A football results and statistics website, written in React and Ruby. Read <Link to="/projects/worldfootball/">more</Link>.
+        </p>
+      </article>
+
+      <article>
+        <h2>Compound interest calculator</h2>
+
+        <p>
+          A mini project to play around with Riot.js. <a href="https://github.com/paulkamer/compound-interest-calculator" target="_blank" rel="noopener noreferrer">source</a> | <a href="https://codesandbox.io/embed/compound-interest-calculator-4d5kf?fontsize=14&view=preview" target="_blank" rel="noopener noreferrer">demo</a>.
         </p>
       </article>
 
