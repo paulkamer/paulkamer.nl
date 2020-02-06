@@ -62,7 +62,7 @@ const ProjectWorldfootballPage = () => {
           in <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noopener noreferrer">Ruby</a>.
         </p>
         <p>
-          Worldfootball leaned heavily on Cloudflare for edge-caching. We devised a mechanism to actively purge specific resources using Cloudflare's <a href="https://api.cloudflare.com/" target="_blank" rel="noopener noreferrer">API</a> when, for example, match results were updated.
+          Worldfootball relied heavily on Cloudflare for edge-caching. We devised a mechanism to actively purge specific resources using Cloudflare's <a href="https://api.cloudflare.com/" target="_blank" rel="noopener noreferrer">API</a> when, for example, match results were updated.
         </p>
         <p>
           We used an <a href="https://www.elastic.co/" target="_blank" rel="noopener noreferrer">ElasticSearch</a> database for the search feature, which allowed visitors to look up competitions, teams, players and venues.

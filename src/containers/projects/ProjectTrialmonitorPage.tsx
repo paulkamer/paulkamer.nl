@@ -13,20 +13,28 @@ const ProjectTrialmonitorPage = () => {
 
       <p className="intro">A personal project to receive alerts when clinical trials are updated on clinicaltrials.gov.</p>
         <p>
-          The <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener noreferrer">clinicaltrials.gov</a> is a website provided by the U.S. National Library of Medicine. It is a database of privately and publicly funded clinical studies conducted around the world.
+          The <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener noreferrer">clinicaltrials.gov</a> is a website
+          provided by the U.S. National Library of Medicine. It is a database of privately and publicly funded clinical studies
+          conducted around the world.
         </p>
+
         <p>
-          Unfortunately, looking up a particular trial and to determine what it's last changes are takes quite a bit of effort. Personally, I monitor a few dozen trials on a weekly basis, so wanted to automate this process.
+          I monitor several dozen trials on a weekly basis, but find the clinicaltrials.gov website not very user-friendly. Keeping track
+          of many trials, and determining what exactly has changed when one is updated, takes quite a bit of effort.<br/>
+          You can only view the changes for a single trial at a time, and it takes several clicks, much scrolling, and popup window before
+          you get there. So I therefore wanted to automate this process.
         </p>
+
         <p>
-          Luckily, clinicaltrials.gov provides an API, so I've built a "clinicaltrials monitor" to receive automatic updates of the trials that I'm interested in. An AWS Step Functions workflow is executed several times per day to
-          check if certain trials (stored in an AWS DynamoDB table) have been updated. Then, a diff of the changed trial records is determined, and a notification email is sent.
+          Luckily, they provide an <a href="https://clinicaltrials.gov/ct2/resources/download" target="_blank" rel="noopener noreferrer">API</a>,
+          so I've built a "clinicaltrials monitor" to receive automatic updates of the trials that I'm interested in.
+          It's built using an AWS Step Functions workflow/StateMachine, which is executed several times per day, see the description below.
         </p>
 
         <p>This project is still work in progress, but the basic functionality is implemented:</p>
         <ul>
           <li>A DynamoDB table holds a list of clinical trials to monitor</li>
-          <li>A Step Function function is periodically executed to check for updated trials</li>
+          <li>A Step Functions workflow is periodically executed to check for updated trials</li>
           <li>
             For each updated trial, a Lambda function is triggered, to:
             <ol>
