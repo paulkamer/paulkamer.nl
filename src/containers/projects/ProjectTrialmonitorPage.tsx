@@ -52,14 +52,12 @@ const ProjectTrialmonitorPage = () => {
         </ul>
 
         <p>
-          <a href="/images/projects/trialmonitor/trial_monitor_step_functions.png" target="_blank">
-            <img
-              className="trialmonitor-page__stepfunctions"
-              src="/images/projects/trialmonitor/trial_monitor_step_functions.png"
-              alt="AWS Step Functions"
-              title="AWS Step Functions"
-            />
-          </a>
+          <img
+            className="trialmonitor-page__stepfunctions"
+            src="/images/projects/trialmonitor/trial_monitor_step_functions.png"
+            alt="AWS Step Functions"
+            title="AWS Step Functions"
+          />
         </p>
 
         <p>
