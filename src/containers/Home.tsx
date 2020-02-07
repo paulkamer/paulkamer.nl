@@ -30,7 +30,7 @@ const Home = () => {
   const jobs = [
     {
       company: 'start.me',
-      tenure: 'dec 2016 - current',
+      tenure: 'dec 2015 - current',
       logo_url: '/images/logo-startme.png',
       website_url: 'https://start.me',
       text: <section>
@@ -40,7 +40,7 @@ const Home = () => {
     },
     {
       company: 'Global Sports Media / Perform Group',
-      tenure: 'jan 2010 - nov 2016',
+      tenure: 'jan 2010 - nov 2015',
       logo_url: '/images/logo-perform.svg',
       website_url: 'https://www.statsperform.com',
       text: <section>
@@ -73,10 +73,8 @@ const Home = () => {
           for <a href="https://start.me" target="_blank" rel="noopener noreferrer">start.me</a>, an online start page/bookmark manager service.
         </p>
 
-        <p>My main interests & experience are: Ruby, Node, PHP, PostgreSQL, JS (vanilla, Vue & React), cloud & serverless.</p>
-
-
         <p>
+          My main interests & experience are: Ruby, Node, PHP, PostgreSQL, JS (vanilla, Vue & React), cloud & serverless.<br/>
           Download my CV: <a href="/docs/cv.pdf">Dutch</a> | <a href="/docs/cv_en.pdf">English</a>
         </p>
       </section>

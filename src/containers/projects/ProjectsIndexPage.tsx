@@ -30,7 +30,8 @@ const ProjectsIndexPage = () => {
         <h2>Compound interest calculator</h2>
 
         <p>
-          A mini project to play around with Riot.js. <a href="https://github.com/paulkamer/compound-interest-calculator" target="_blank" rel="noopener noreferrer">source</a> | <a href="https://codesandbox.io/embed/compound-interest-calculator-4d5kf?fontsize=14&view=preview" target="_blank" rel="noopener noreferrer">demo</a>.
+          A mini project to play around with <a href="https://riot.js.org/" target="_blank" rel="noopener noreferrer">Riot.js</a>
+          . <a href="https://github.com/paulkamer/compound-interest-calculator" target="_blank" rel="noopener noreferrer">source</a>, <a href="https://codesandbox.io/embed/compound-interest-calculator-4d5kf?fontsize=14&view=preview" target="_blank" rel="noopener noreferrer">demo</a>.
         </p>
       </article>
 
