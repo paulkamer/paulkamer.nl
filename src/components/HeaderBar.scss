@@ -6,42 +6,33 @@ $avatar_diameter: 45px;
 
 .HeaderBar {
   display: flex;
-  flex-direction: row;
   flex-shrink: 0;
   align-items: center;
-  justify-content: center;
   height: $height;
   color: $color-white;
   background-color: $header-bg-color;
-
-  h1 {
-    margin: 0;
-  }
 
   a {
     color: $color-white;
     text-decoration: none;
   }
 
-  .avatar {
+  &__name {
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+
+    h1 {
+      margin: 0;
+    }
+  }
+
+  &__avatar {
     width: $avatar_diameter;
     height: $avatar_diameter;
     margin-right: 0.5em;
     border: 2px solid $color-white;
     border-radius: 50%;
-  }
-
-  &__container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    max-width: $main-max-width;
-  }
-
-  &__name {
-    display: flex;
-    align-items: center;
-    padding: 0 1em;
   }
 
   &__submenu {
