@@ -2359,6 +2359,11 @@ babylon@^6.18.0:
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
   integrity sha512-q/UEjfGJ2Cm3oKV71DJz9d25TPnq5rhBVL2Q4fA5wcC3jcrdn7+SssEybFIxwAvvP+YCsCYNKughoF33GxgycQ==
 
+baguettebox.js@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/baguettebox.js/-/baguettebox.js-1.11.0.tgz#38b4e478dc91cad9e19060a15b19aae94724728d"
+  integrity sha512-4IEXDE2Yje3o8nOdGoonxOfpiveXfF6YV4ggV04ky/pMquH/cKM1Tv7LeD3QPH6RK72V6c+oRFFLnrMc4xO5Cg==
+
 bail@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/bail/-/bail-1.0.4.tgz#7181b66d508aa3055d3f6c13f0a0c720641dde9b"

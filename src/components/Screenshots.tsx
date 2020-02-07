@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import baguetteBox from 'baguettebox.js';
 
 import './Screenshots.scss';
 
@@ -12,6 +13,10 @@ type Screenshot = {
 export interface ScreenshotsProps { screenshots: Screenshot[]; }
 
 export class Screenshots extends Component<ScreenshotsProps> {
+  componentDidMount() {
+    baguetteBox.run('.screenshots');
+  }
+
   render() {
     return (
       <div className="screenshots">
@@ -21,7 +26,7 @@ export class Screenshots extends Component<ScreenshotsProps> {
               <a
                 href={screenshot.url}
                 target="_blank"
-                title={`${screenshot.title || screenshot.alt} - click to expand`}
+                title={screenshot.title || screenshot.alt}
                 rel="noopener noreferrer"
               >
                 <img src={screenshot.thumbUrl} alt={screenshot.alt} />
