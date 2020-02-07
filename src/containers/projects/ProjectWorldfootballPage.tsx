@@ -6,21 +6,25 @@ import { Screenshots } from '../../components/Screenshots'
 const wfScreenshots = [
   {
     url: '/images/projects/worldfootball/homepage.png',
+    thumbUrl: '/images/projects/worldfootball/homepage_thumb.png',
     alt: 'Homepage',
     title: 'Worldfootball.com homepage',
   },
   {
     url: '/images/projects/worldfootball/teampage.png',
+    thumbUrl: '/images/projects/worldfootball/teampage_thumb.png',
     alt: 'Team page',
     title: 'Worldfootball.com team page',
   },
   {
     url: '/images/projects/worldfootball/matchpage.png',
+    thumbUrl: '/images/projects/worldfootball/matchpage_thumb.png',
     alt: 'Match page',
     title: 'Match page (2018 World Cup Final)',
   },
   {
     url: '/images/projects/worldfootball/leaguetable.png',
+    thumbUrl: '/images/projects/worldfootball/leaguetable_thumb.png',
     alt: 'League table',
     title: 'Worldfootball.com League table',
   },

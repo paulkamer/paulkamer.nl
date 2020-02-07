@@ -5,6 +5,7 @@ import './Screenshots.scss';
 type Screenshot = {
   alt: string;
   url: string;
+  thumbUrl: string;
   title?: string;
 }
 
@@ -23,7 +24,7 @@ export class Screenshots extends Component<ScreenshotsProps> {
                 title={`${screenshot.title || screenshot.alt} - click to expand`}
                 rel="noopener noreferrer"
               >
-                <img src={screenshot.url} alt={screenshot.alt} />
+                <img src={screenshot.thumbUrl} alt={screenshot.alt} />
               </a>
             </div>
           )
