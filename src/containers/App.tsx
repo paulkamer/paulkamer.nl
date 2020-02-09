@@ -29,6 +29,7 @@ function App() {
               <Suspense fallback={<Loader />}>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/projects/worldfootball/" component={ProjectWorldfootballPage} />
+                <Route exact path="/projects/trialsmonitor/" component={ClinicaltrialsmonitorPage} />
                 <Route exact path="/projects/trialmonitor/" component={ClinicaltrialsmonitorPage} />
                 <Route exact path="/projects/" component={ProjectsIndexPage} />
               </Suspense>

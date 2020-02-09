@@ -54,7 +54,7 @@ const ProjectTrialmonitorPage = () => {
         <p>
           <img
             className="trialmonitor-page__stepfunctions"
-            src="/images/projects/trialmonitor/trial_monitor_step_functions.png"
+            src="/images/projects/trialsmonitor/trial_monitor_step_functions.png"
             alt="AWS Step Functions"
             title="AWS Step Functions"
           />

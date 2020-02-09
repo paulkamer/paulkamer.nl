@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import IntroArticle from '../components/IntroArticle';
+
 import './Home.scss';
 
 const Home = () => {
@@ -45,7 +47,7 @@ const Home = () => {
       website_url: 'https://www.statsperform.com',
       text: <section>
         <p>Global Sports Media (GSM) collects and syndicates sports statistics via a REST API, FTP push service and hosted (white-label) websites and widgets.</p>
-        <p>After being fully acquired by Perform Group, I've worked as a Software Architect on, amongst other thing, a project to introduce a new sports data collection platform.</p>
+        <p>After being fully acquired by Perform Group, I've worked as a Software Architect on, amongst other things, a project to introduce a new sports data collection platform.</p>
       </section>
     },
     {
@@ -64,7 +66,7 @@ const Home = () => {
   ]
 
   return (
-    <article>
+    <article className="home-page">
       <section id="bio" className="bio">
         <h2>About me</h2>
         <p>I'm an experienced full-stack web developer, more inclined towards back-end development, from The Hague in The Netherlands.</p>
@@ -101,15 +103,16 @@ const Home = () => {
         <h2>Jobs</h2>
         {
           jobs.map((job, index) => {
-            return <article key={`job_${index}`} className="job">
-              <h3>{job.company}<span className="job__tenure"> - {job.tenure}</span></h3>
-              <section className="job__job-details">
-                <div className="job__company-logo">
-                  <a href={job.website_url} target="_blank" rel="noopener noreferrer"><img src={job.logo_url} alt={`${job.company} logo`} /></a>
-                </div>
-                {job.text}
-              </section>
-            </article>
+            return <IntroArticle
+              key={`job_${index}`}
+              title={job.company}
+              subTitle={` - ${job.tenure}`}
+              articleText={job.text}
+              imageUrl={job.logo_url}
+              imageLinkUrl={job.website_url}
+              imageLinkTarget="_blank"
+              imageAlt={job.company}
+            />
           })
         }
       </section>

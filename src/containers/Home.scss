@@ -1,8 +1,12 @@
 @import '../styles/variables';
 
-.skills {
-  margin-top: 2em;
+.home-page {
+  > section {
+    margin-top: 2em;
+  }
+}
 
+.skills {
   &__skillslist {
     max-width: 35em;
     padding: 0;
@@ -36,54 +40,4 @@
       }
     }
   }
-}
-
-.jobs {
-  margin-top: 2em;
-
-  .job {
-    $logo-diameter: 80px;
-
-    margin-bottom: 1.5em;
-
-    h3 {
-      margin: 0.5em 0;
-    }
-
-    &__job-details {
-      display: flex;
-      flex-direction: row;
-    }
-
-    &__tenure {
-      font-size: smaller;
-      font-style: italic;
-      color: $color-dark-grey;
-    }
-
-    &__company-logo {
-      display: flex;
-      flex-shrink: 0;
-      width: $logo-diameter;
-      height: $logo-diameter;
-      margin-right: 1em;
-      overflow: hidden;
-      border: 1px solid $color-black;
-      border-radius: 50%;
-
-      a {
-        display: flex;
-      }
-
-      img {
-        width: $logo-diameter;
-        padding: 5px;
-        margin: auto;
-      }
-    }
-  }
-}
-
-.projects {
-  margin-top: 2em;
 }
