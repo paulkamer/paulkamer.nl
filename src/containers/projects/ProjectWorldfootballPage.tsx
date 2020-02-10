@@ -91,7 +91,7 @@ const ProjectWorldfootballPage = () => {
           </li>
           <li>Infrastructure:
             <ul>
-              <li>AWS: EC2, S3, ElasticSearch</li>
+              <li>AWS: RDS (PostgreSQL) EC2, S3, ElasticSearch</li>
               <li>Docker, docker-compose, docker-machine</li>
             </ul>
           </li>
