@@ -9,23 +9,31 @@ const Home = () => {
   const skills = [
     {
       discipline: 'Back-end',
-      skills: ['Ruby','Node.js','PHP','RabbitMQ','Resque']
+      skills: ['Ruby','Node.js','PHP']
     },
     {
       discipline: 'Databases',
-      skills: ['PostgreSQL', 'Redis','Elasticsearch', 'MySQL','Oracle']
+      skills: ['PostgreSQL', 'Redis', 'MySQL','Oracle']
+    },
+    {
+      discipline: 'Search / Queues',
+      skills: ['Elasticsearch', 'Resque', 'RabbitMQ']
     },
     {
       discipline: 'Infrastructure',
-      skills: ['Heroku', 'Cloud (AWS)', 'Serverless', 'Docker']
+      skills: ['Heroku', 'Cloudflare', 'Cloud (AWS)', 'Serverless', 'Docker']
     },
     {
       discipline: 'Front-end',
       skills: ['Vue.js','Nuxt.js','React', 'Riot.js'],
     },
     {
+      discipline: 'Unit testing',
+      skills: ['Mocha', 'Jest', 'Enzyme', 'Sinon', 'Chai', 'minitest (Ruby)'],
+    },
+    {
       discipline: 'Misc',
-      skills: [ 'Nginx', 'Apache', 'Git','UML','CI/CD','ArchiMate']
+      skills: ['Git', 'SQL', 'Nginx', 'Apache', 'JMeter','UML','ArchiMate']
     }
   ];
 
