@@ -10,6 +10,7 @@ import Loader from '../components/Loader';
 import '../styles/variables.scss';
 import './App.scss';
 
+const JobsIndexPage = React.lazy(() => import('./jobs/JobsIndexPage'));
 const ProjectsIndexPage = React.lazy(() => import('./projects/ProjectsIndexPage'));
 const ProjectWorldfootballPage = React.lazy(() => import('./projects/ProjectWorldfootballPage'));
 const ClinicaltrialsmonitorPage = React.lazy(() => import('./projects/ProjectTrialmonitorPage'));
@@ -32,6 +33,7 @@ function App() {
                 <Route exact path="/projects/trialsmonitor/" component={ClinicaltrialsmonitorPage} />
                 <Route exact path="/projects/trialmonitor/" component={ClinicaltrialsmonitorPage} />
                 <Route exact path="/projects/" component={ProjectsIndexPage} />
+                <Route exact path="/jobs/" component={JobsIndexPage} />
               </Suspense>
             </div>
           </Route>

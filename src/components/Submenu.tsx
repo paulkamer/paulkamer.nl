@@ -8,6 +8,7 @@ const Submenu = () => {
     <div className="submenu">
       <ul>
         <li><Link to="/">Home</Link></li>
+        <li><Link to="/jobs/">Jobs</Link></li>
         <li><Link to="/projects/">Projects</Link></li>
       </ul>
     </div>
