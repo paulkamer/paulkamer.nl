@@ -38,8 +38,8 @@ const JobsIndexPage = () => {
         <li>CI/CD: Heroku CI & Heroku Pipelines</li>
         <li>API/backend: Ruby on Rails, Node.js</li>
         <li>Background jobs: Redis/Resque, Ruby</li>
-        <li>Front end: Vue.js, ServiceWorker, SASS, Webpack, Babel, ESLint, Styelint</li>
-        <li>(unit) testing: Jest, Sinon, Selenium, minitest (Ruby)</li>
+        <li>Front end: Vue.js, Service Worker, SASS, Webpack, Babel, ESLint, Stylelint</li>
+        <li>Testing: Jest, Sinon, Selenium, JMeter, minitest (Ruby)</li>
         <li>Database: PostgreSQL, Redis</li>
       </ul>
 
