@@ -37,6 +37,8 @@ const ProjectWorldfootballPage = () => {
 
       <h1>Worldfootball</h1>
 
+      <p>This project is temporarily available at: <a href="http://35.158.175.199/" target="_blank" rel="noopener noreferrer">http://35.158.175.199/</a>.</p>
+
       <p>
         Worldfootball.com was a collaborative project between <a href="https://datasportsgroup.com/" target="_blank" rel="noopener noreferrer">DataSportsGroup</a> (DSG)
         and Arjen Robijn, the founder of start.me (see <a href="/#jobs">jobs</a>) for whom I work for.
