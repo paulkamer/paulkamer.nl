@@ -18,7 +18,7 @@ const SkillsList = () => {
       company: 'Global Sports Media / Perform Group',
       tenure: 'jan 2010 - nov 2015',
       logo_url: '/images/logo-perform.svg',
-      image_link_url: 'https://www.statsperform.com',
+      image_link_to: '/jobs/gsm_perform',
       text: <section>
         <p>Global Sports Media (GSM) collects and syndicates sports statistics via a REST API, FTP push service and hosted (white-label) websites and widgets.</p>
         <p>After being fully acquired by Perform Group, I've worked as a Software Architect on, amongst other things, a project to introduce a new sports data collection platform.</p>

@@ -12,6 +12,7 @@ import './App.scss';
 
 const JobsIndexPage = React.lazy(() => import('./jobs/JobsIndexPage'));
 const JobStartmePage = React.lazy(() => import('./jobs/JobStartmePage'));
+const JobGsmPerformPage = React.lazy(() => import('./jobs/JobGsmPerformPage'));
 
 const ProjectsIndexPage = React.lazy(() => import('./projects/ProjectsIndexPage'));
 const ProjectWorldfootballPage = React.lazy(() => import('./projects/ProjectWorldfootballPage'));
@@ -36,6 +37,8 @@ function App() {
                 <Route exact path="/projects/trialmonitor/" component={ClinicaltrialsmonitorPage} />
                 <Route exact path="/projects/" component={ProjectsIndexPage} />
                 <Route exact path="/jobs/startme" component={JobStartmePage} />
+                <Route exact path="/jobs/gsm_perform" component={JobGsmPerformPage} />
+                <Route exact path="/jobs/gsm" component={JobGsmPerformPage} />
                 <Route exact path="/jobs/" component={JobsIndexPage} />
               </Suspense>
             </div>
