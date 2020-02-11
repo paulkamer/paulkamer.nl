@@ -63,7 +63,7 @@ const ProjectWorldfootballPage = () => {
 
       <h3>Technology</h3>
         <p>
-          Live results and post-match stats were synced from the DataSportsGroup API
+          The live results and post-match stats were synced from the DataSportsGroup API,
           by <a href="https://github.com/resque/resque" target="_blank" rel="noopener noreferrer">Resque</a>-backed background jobs that were written
           in <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noopener noreferrer">Ruby</a>.
         </p>
@@ -74,7 +74,7 @@ const ProjectWorldfootballPage = () => {
           We used an <a href="https://www.elastic.co/" target="_blank" rel="noopener noreferrer">ElasticSearch</a> database for the search feature, which allowed visitors to look up competitions, teams, players and venues.
         </p>
 
-        <h4>Technology</h4>
+        <h4>Technology stack</h4>
         <ul>
           <li>Front-end:
             <ul>
@@ -82,18 +82,20 @@ const ProjectWorldfootballPage = () => {
               <li>Sass (SCSS)</li>
               <li>Babel, ESLint</li>
               <li>Served by Express.js with server-side rendering</li>
+              <li>Tests: Jest, Enzyme, Sinon</li>
             </ul>
           </li>
           <li>Back-end:
             <ul>
-              <li>API: Ruby on Rails</li>
+              <li>API: Ruby on Rails, with Jbuilder</li>
               <li>Background jobs: Ruby, Redis, Resque</li>
               <li>Data management: ActiveAdmin</li>
+              <li>Tests: rspec, minitest, factory_bot</li>
             </ul>
           </li>
           <li>Infrastructure:
             <ul>
-              <li>AWS: RDS (PostgreSQL) EC2, S3, ElasticSearch</li>
+              <li>AWS: RDS (PostgreSQL), EC2, S3, ElasticSearch</li>
               <li>Docker, docker-compose, docker-machine</li>
             </ul>
           </li>
