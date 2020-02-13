@@ -36,28 +36,14 @@
       font-weight: bold;
     }
 
-    p + p {
-      margin-bottom: 1em;
-    }
-
     > section {
       position: relative;
       height: 100%;
     }
 
-    article {
-      padding-bottom: 1em;
-    }
-
     .footnotes {
-      position: absolute;
-      bottom: 0;
       padding-top: 1em;
       font-size: small;
-
-      @include mobile {
-        position: initial;
-      }
     }
   }
 }

@@ -32,7 +32,7 @@ const JobsGsmPerformPage = () => {
         <li>Memcached</li>
         <li>Node.js</li>
         <li>Socket.io</li>
-      </ul><br/>
+      </ul>
 
       <p>Which powered the following projects:</p><br/>
 
@@ -57,7 +57,7 @@ const JobsGsmPerformPage = () => {
       </ul>
 
       <h3>Senior web developer (PHP) | jan 2010 - jun 2014</h3>
-      <p>Some of the projects I worked on:</p><br/>
+      <p>Some of the projects I worked on:</p>
       <ul>
         <li>Developed new generation sports data collection and storage platform ()
           <ul><li>PHP, Symfony 1, MySQL</li></ul>

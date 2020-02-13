@@ -46,7 +46,7 @@ const JobsIndexPage = () => {
       <h2>Positions</h2>
       <h3>Tech Lead | oct 2017 - current</h3>
 
-      <p>Some of the projects I worked on as Tech Lead:</p><br/>
+      <p>Some of the projects I worked on as Tech Lead:</p>
       <ul>
         <li>Complete rebuild of the jQuery-based front-end with Vue.js</li>
         <li>Integration with Chargebee for recurring payments (Ruby)</li>
@@ -60,7 +60,7 @@ const JobsIndexPage = () => {
       </ul>
 
       <h3>Web developer (Ruby) | dec 2015 - sept 2017</h3>
-      <p>Some of the projects I worked on:</p><br/>
+      <p>Some of the projects I worked on:</p>
       <ul>
         <li>Integration with PayPal and Stripe</li>
         <li>Back- & front-end performance improvements</li>
