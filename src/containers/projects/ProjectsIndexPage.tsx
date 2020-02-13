@@ -15,7 +15,10 @@ const ProjectsIndexPage = () => {
         articleText={
           <article>
             <p>A service to receive notifications about updated clinical trials on ClinicalTrials.gov.</p>
-            <p>For a full description, click <Link to="/projects/trialsmonitor/">here</Link>.</p>
+            <p>
+              For a full description, click <Link to="/projects/trialsmonitor/">here</Link>.
+              The source code is on <a href="https://github.com/paulkamer/trialmonitor" target="_blank" rel="noopener noreferrer">GitHub</a>.
+            </p>
           </article>
         }
         imageUrl="/images/projects/trialsmonitor/trialsmonitor.png"
