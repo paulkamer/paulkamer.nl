@@ -1,41 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import SkillsList from '../components/SkillsList';
 import JobsList from '../components/JobsList';
 
-import './Home.scss';
-
 const Home = () => {
-  const skills = [
-    {
-      discipline: 'Back-end',
-      skills: ['Ruby','Node.js','PHP']
-    },
-    {
-      discipline: 'Databases',
-      skills: ['PostgreSQL', 'Redis', 'MySQL','Oracle']
-    },
-    {
-      discipline: 'Search / Queues',
-      skills: ['Elasticsearch', 'Resque', 'RabbitMQ']
-    },
-    {
-      discipline: 'Infrastructure',
-      skills: ['Heroku', 'Cloudflare', 'Cloud (AWS)', 'Serverless', 'Docker']
-    },
-    {
-      discipline: 'Front-end',
-      skills: ['Vue.js','Nuxt.js','React', 'Riot.js'],
-    },
-    {
-      discipline: 'Unit testing',
-      skills: ['Mocha', 'Jest', 'Enzyme', 'Sinon', 'Chai', 'minitest (Ruby)'],
-    },
-    {
-      discipline: 'Misc',
-      skills: ['Git', 'SQL', 'Nginx', 'Apache', 'JMeter','UML','ArchiMate']
-    }
-  ];
 
   return (
     <article className="home-page">
@@ -51,24 +20,8 @@ const Home = () => {
         <p>Download my CV: <a href="/docs/cv.pdf">Dutch</a> | <a href="/docs/cv_en.pdf">English</a></p>
       </section>
 
-      <section id="skills" className="skills">
-        <h2>Skills</h2>
-        <ul className="skills__skillslist">
-          {
-            skills.map((discipline, index) => {
-              return <li key={`sk_${index}`} className="skillsgroup">
-                <span className="skillsgroup__discipline">{discipline.discipline}:</span>
-                <ul className="skillsgroup__skillslist">
-                  {
-                    discipline.skills.map((skill, si) =>
-                      <li key={`${index}_${si}`} className="skillsgroup__skill">{skill}</li>
-                    )
-                  }
-                </ul>
-              </li>
-            })
-          }
-        </ul>
+      <section id="skills">
+        <SkillsList />
       </section>
 
       <section id="jobs">

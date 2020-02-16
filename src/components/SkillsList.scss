@@ -2,17 +2,16 @@
 
 .skills {
   &__skillslist {
-    max-width: 35em;
     padding: 0;
     list-style: none;
 
     .skillsgroup {
       display: block;
+      line-height: 1.5em;
 
       &__discipline {
         padding-right: 0.5em;
         font-weight: bold;
-        line-height: 1.5em;
       }
 
       &__skillslist {
