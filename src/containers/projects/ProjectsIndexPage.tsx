@@ -63,8 +63,8 @@ const ProjectsIndexPage = () => {
             <h3>Technology</h3>
             <ul>
               <li>Front-end: PHP, Symfony 2, Apache</li>
-              <li>Back-end: Python, Django</li>
-              <li>Infrastructure: Amazon EC2</li>
+              <li>Back-end: Python, Django, RabbitMQ, Celery</li>
+              <li>Infrastructure: Amazon EC2, Supervisor, Puppet</li>
               <li>DB & Search: MySQL, ElasticSearch</li>
             </ul>
           </article>
