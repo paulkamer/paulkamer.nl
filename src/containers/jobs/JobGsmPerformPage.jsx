@@ -23,7 +23,7 @@ const JobsGsmPerformPage = () => {
 
       <h2>Technology stack</h2>
 
-      <p>The technology stack comprised of the following:</p><br/>
+      <p>The technology stack comprised of the following:</p>
       <ul>
         <li>LAMP: Linux, Apache, PHP, MySQL (master DB with > 8 followers)</li>
         <li>Symfony 1, Symfony 2, Doctrine, Dependency Injection</li>
@@ -34,7 +34,7 @@ const JobsGsmPerformPage = () => {
         <li>Socket.io</li>
       </ul>
 
-      <p>Which powered the following projects:</p><br/>
+      <p>Which powered the following projects:</p>
 
       <ul>
         <li>Sports data collection tools</li>
@@ -49,7 +49,7 @@ const JobsGsmPerformPage = () => {
       <h2>Positions</h2>
       <h3>Software Architect | jul 2014 - nov 2015</h3>
 
-      <p>Some of the projects I worked on as Software Architect include:</p><br/>
+      <p>Some of the projects I worked on as Software Architect include:</p>
       <ul>
         <li>Merger of GSM with sister companies Opta Sports and RunningBall.</li>
         <li>Architecture & development of a new data collection and syndication platform for multiple American sports.</li>
