@@ -6,7 +6,7 @@ const SkillsList = () => {
   const jobs = [
     {
       company: 'start.me',
-      tenure: 'dec 2015 - current',
+      tenure: 'dec 2015 - April 2020',
       logo_url: '/images/logo-startme.png',
       image_link_to: '/jobs/startme',
       text: <section>

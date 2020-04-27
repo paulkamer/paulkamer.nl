@@ -13,7 +13,7 @@ const FooterBar = () => {
       </a>
       <a href="mailto:paulkamer@gmail.com" className="footerbar__icon" target="_blank" rel="noopener noreferrer">
         <img src="/images/mail.svg" alt="email" />
-      </a> { '\u2013' } last updated February 2020
+      </a> { '\u2013' } last updated April 2020
     </footer>
   );
 }

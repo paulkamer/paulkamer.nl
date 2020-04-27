@@ -8,7 +8,7 @@ const JobsIndexPage = () => {
     <section>
       <Breadcrumbtrail trail={[{ to: '/jobs/', label: 'Jobs' }, { label: 'start.me' }]} />
 
-      <h1>start.me | dec 2015 - current</h1>
+      <h1>start.me | dec 2015 - April 2020</h1>
       <p>
         <a href="https://start.me" target="_blank" rel="noopener noreferrer">start.me</a> is an online start page/bookmark manager for both personal and professional use.<br/>
         I previously worked for the founder of start.me already, at Global Sports Media (see <Link to="/jobs/">jobs</Link>).</p>
@@ -17,7 +17,7 @@ const JobsIndexPage = () => {
       </p>
 
       <p>
-        For the last few years I am Tech Lead at start.me, and am responsible for the following:
+        As Tech Lead for start.me I was responsible for the following:
       </p>
 
       <ul>
@@ -44,7 +44,7 @@ const JobsIndexPage = () => {
       </ul>
 
       <h2>Positions</h2>
-      <h3>Tech Lead | oct 2017 - current</h3>
+      <h3>Tech Lead | oct 2017 - April 2020</h3>
 
       <p>Some of the projects I worked on as Tech Lead:</p>
       <ul>
