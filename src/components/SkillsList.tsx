@@ -9,8 +9,12 @@ const SkillsList = () => {
       skills: ['Ruby','Node.js','PHP']
     },
     {
+      discipline: 'Front-end',
+      skills: ['Vue.js', 'Nuxt.js','React', 'Angular', 'RxJS', 'Riot.js'],
+    },
+    {
       discipline: 'Databases',
-      skills: ['PostgreSQL', 'Redis', 'MySQL','Oracle']
+      skills: ['PostgreSQL', 'Redis', 'MySQL', 'DynamoDB', 'Oracle']
     },
     {
       discipline: 'Search / Queues',
@@ -18,15 +22,11 @@ const SkillsList = () => {
     },
     {
       discipline: 'Infrastructure',
-      skills: ['Heroku', 'Cloudflare', 'Cloud (AWS)', 'Serverless', 'Docker', 'Puppet']
-    },
-    {
-      discipline: 'Front-end',
-      skills: ['Vue.js','Nuxt.js','React', 'Riot.js'],
+      skills: ['Heroku', 'Cloudflare', 'AWS (EC2, CloudFormation, Lambda, Amplify, Cognito)', 'Serverless Framework', 'Docker', 'Puppet']
     },
     {
       discipline: 'Unit testing',
-      skills: ['Mocha', 'Jest', 'Enzyme', 'Sinon', 'Chai', 'minitest (Ruby)'],
+      skills: ['Mocha', 'Jest', 'Enzyme', 'Sinon', 'Chai', 'Ruby minitest'],
     },
     {
       discipline: 'Misc',
