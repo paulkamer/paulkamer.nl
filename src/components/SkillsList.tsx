@@ -6,7 +6,7 @@ const SkillsList = () => {
   const skills = [
     {
       discipline: 'Back-end',
-      skills: ['Ruby','Node.js','PHP']
+      skills: ['Ruby','Node.js','PHP', 'Python']
     },
     {
       discipline: 'Front-end',
@@ -21,16 +21,20 @@ const SkillsList = () => {
       skills: ['Elasticsearch', 'Resque', 'RabbitMQ', 'Celery']
     },
     {
-      discipline: 'Infrastructure',
-      skills: ['Heroku', 'Cloudflare', 'AWS (EC2, CloudFormation, Lambda, Amplify, Cognito)', 'Serverless Framework', 'Docker', 'Puppet']
+      discipline: 'AWS / Cloud',
+      skills: ['EC2', 'S3', 'CloudFront', 'API Gateway', 'CloudFormation', 'Lambda', 'Step Functions', 'Amplify', 'Cognito', 'Serverless Framework']
     },
     {
-      discipline: 'Unit testing',
-      skills: ['Mocha', 'Jest', 'Enzyme', 'Sinon', 'Chai', 'Ruby minitest'],
+      discipline: 'Hosting / CDN',
+      skills: ['Heroku', 'DigitalOcean', 'Cloudflare', 'Akamai']
+    },
+    {
+      discipline: 'Unit/e2e testing',
+      skills: ['Mocha', 'Jest', 'Enzyme', 'Sinon', 'Chai', 'Ruby minitest', 'Protractor', 'Selenium'],
     },
     {
       discipline: 'Misc',
-      skills: ['Git', 'SQL', 'Nginx', 'Apache', 'JMeter','UML','ArchiMate']
+      skills: ['Git', 'Docker', 'SQL', 'Nginx', 'Apache', 'JMeter','UML','ArchiMate']
     }
   ];
 
