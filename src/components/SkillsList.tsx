@@ -30,7 +30,7 @@ const SkillsList = () => {
     },
     {
       discipline: 'Unit/e2e testing',
-      skills: ['Mocha', 'Jest', 'Enzyme', 'Sinon', 'Chai', 'Ruby minitest', 'Protractor', 'Selenium'],
+      skills: ['Mocha', 'Ava', 'Jest', 'Enzyme', 'Sinon', 'Chai', 'IstanbulJS', 'Protractor', 'Selenium', 'Ruby minitest', 'RSpec'],
     },
     {
       discipline: 'Misc',
