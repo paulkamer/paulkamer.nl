@@ -5,6 +5,16 @@ import IntroArticle from './IntroArticle';
 const SkillsList = () => {
   const jobs = [
     {
+      company: 'Netcompany',
+      tenure: 'May 2020 - current',
+      logo_url: '/images/logo-netcompany.svg',
+      image_link_url: 'https://www.netcompany.com/nl',
+      text: <section>
+        <p>Netcompany provides end to end services from advisory over development and implementation to operation of large IT solutions to large enterprises and governments. It is an international company with offices in 6 countries, with over 2.500 employees.</p>
+        <p>My role is Senior Specialist / Lead Developer.</p>
+      </section>
+    },
+    {
       company: 'start.me',
       tenure: 'dec 2015 - April 2020',
       logo_url: '/images/logo-startme.png',
