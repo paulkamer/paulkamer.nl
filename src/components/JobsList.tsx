@@ -2,12 +2,12 @@ import React from 'react';
 
 import IntroArticle from './IntroArticle';
 
-const SkillsList = () => {
+const JobsList = () => {
   const jobs = [
     {
       company: 'Netcompany',
       tenure: 'May 2020 - current',
-      logo_url: '/images/logo-netcompany.svg',
+      logo_url: '/images/logo-netcompany.png',
       image_link_url: 'https://www.netcompany.com/nl',
       text: <section>
         <p>Netcompany provides end to end services from advisory over development and implementation to operation of large IT solutions to large enterprises and governments. It is an international company with offices in 6 countries, with over 2.500 employees.</p>
@@ -71,4 +71,4 @@ const SkillsList = () => {
   );
 }
 
-export default SkillsList;
+export default JobsList;
