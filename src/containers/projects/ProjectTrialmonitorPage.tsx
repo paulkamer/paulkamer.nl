@@ -71,7 +71,7 @@ const ProjectTrialmonitorPage = () => {
           />
         </p>
         <p>
-          Check for updated trials:
+          Check for new trials:
           <img
             className="trialmonitor-page__stepfunctions"
             src="/images/projects/trialsmonitor/workflow_newtrialschecker.png"
