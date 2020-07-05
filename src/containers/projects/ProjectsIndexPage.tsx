@@ -16,8 +16,7 @@ const ProjectsIndexPage = () => {
           <article>
             <p>A service to receive notifications about updated clinical trials on ClinicalTrials.gov.</p>
             <p>
-              For a full description, click <Link to="/projects/trialsmonitor/">here</Link>.
-              The source code is on <a href="https://github.com/paulkamer/trialmonitor" target="_blank" rel="noopener noreferrer">GitHub</a>.
+              <Link to="/projects/trialsmonitor/">Description</Link> | <a href="https://github.com/paulkamer/trialmonitor" target="_blank" rel="noopener noreferrer">Source code</a>
             </p>
           </article>
         }
@@ -26,11 +25,25 @@ const ProjectsIndexPage = () => {
       />
 
       <IntroArticle
+        title="WWII Quotes Twitter Bot"
+        articleText={
+          <article>
+            <p>A twitter bot that tweets famous WW2-related quotes.</p>
+            <p>
+              <Link to="/projects/ww2quotesbot/">Description</Link> | <a href="https://github.com/paulkamer/ww2quotesbot" target="_blank" rel="noopener noreferrer">Source code</a>
+            </p>
+          </article>
+        }
+        imageUrl="/images/projects/twitter-icon.svg"
+        imageLinkTo="/projects/ww2quotesbot/"
+      />
+
+      <IntroArticle
         title="Worldfootball"
         articleText={
           <article>
             <p>A football results and statistics website, written in React and Ruby.</p>
-            <p>Read <Link to="/projects/worldfootball/">more</Link>.</p>
+            <p><Link to="/projects/worldfootball/">Description</Link></p>
           </article>
         }
         imageUrl="/images/projects/worldfootball/football.png"
@@ -43,7 +56,7 @@ const ProjectsIndexPage = () => {
           <article>
             <p>A mini project to play around with <a href="https://riot.js.org/" target="_blank" rel="noopener noreferrer">Riot.js</a>.</p>
             <p>
-              View <a href="https://github.com/paulkamer/compound-interest-calculator" target="_blank" rel="noopener noreferrer">source</a> & <a href="https://codesandbox.io/embed/compound-interest-calculator-4d5kf?fontsize=14&view=preview" target="_blank" rel="noopener noreferrer">demo</a>
+              <a href="https://github.com/paulkamer/compound-interest-calculator" target="_blank" rel="noopener noreferrer">Source code</a> | <a href="https://codesandbox.io/embed/compound-interest-calculator-4d5kf?fontsize=14&view=preview" target="_blank" rel="noopener noreferrer">demo</a>
             </p>
           </article>
         }

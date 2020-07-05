@@ -17,6 +17,7 @@ const JobGsmPerformPage = React.lazy(() => import('./jobs/JobGsmPerformPage'));
 const ProjectsIndexPage = React.lazy(() => import('./projects/ProjectsIndexPage'));
 const ProjectWorldfootballPage = React.lazy(() => import('./projects/ProjectWorldfootballPage'));
 const ClinicaltrialsmonitorPage = React.lazy(() => import('./projects/ProjectTrialmonitorPage'));
+const ProjectWw2TwitterBotPage = React.lazy(() => import('./projects/ProjectWw2TwitterBotPage'));
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
                 <Route exact path="/projects/worldfootball/" component={ProjectWorldfootballPage} />
                 <Route exact path="/projects/trialsmonitor/" component={ClinicaltrialsmonitorPage} />
                 <Route exact path="/projects/trialmonitor/" component={ClinicaltrialsmonitorPage} />
+                <Route exact path="/projects/ww2quotesbot/" component={ProjectWw2TwitterBotPage} />
                 <Route exact path="/projects/" component={ProjectsIndexPage} />
                 <Route exact path="/jobs/startme" component={JobStartmePage} />
                 <Route exact path="/jobs/gsm_perform" component={JobGsmPerformPage} />
