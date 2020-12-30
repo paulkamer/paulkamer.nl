@@ -13,14 +13,4 @@ module.exports = {
 
     return config
   }
-  // jest: function(config) {
-  //   // customize jest here
-  //   return config;
-  // },
-  // devServer: function(configFunction) {
-  //   return function(proxy, host) {
-  //     // customize devServer config here
-  //     return config;
-  //   }
-  // }
 }
