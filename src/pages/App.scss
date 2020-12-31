@@ -1,5 +1,5 @@
-@import '../styles/variables';
-@import '../styles/mixins';
+@import "../styles/variables";
+@import "../styles/mixins";
 
 .app-main {
   display: flex;
@@ -39,11 +39,6 @@
     > section {
       position: relative;
       height: 100%;
-    }
-
-    .footnotes {
-      padding-top: 1em;
-      font-size: small;
     }
   }
 }

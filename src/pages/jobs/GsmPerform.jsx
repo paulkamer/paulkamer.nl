@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { Breadcrumbtrail } from '../../components/Breadcrumbtrail';
+import { BreadCrumbtrail } from '../../components/Breadcrumbtrail';
 
-const JobsGsmPerformPage = () => {
+const GsmPerformPage = () => {
   return (
     <section>
-      <Breadcrumbtrail trail={[{ to: '/jobs/', label: 'Jobs' }, { label: 'GSM / Perform' }]} />
+      <BreadCrumbtrail trail={[{ to: '/jobs/', label: 'Jobs' }, { label: 'GSM / Perform' }]} />
 
       <h1>Global Sports Media / Perform Group | jan 2010 - nov 2015</h1>
 
@@ -78,4 +78,4 @@ const JobsGsmPerformPage = () => {
   )
 }
 
-export default JobsGsmPerformPage;
+export default GsmPerformPage;

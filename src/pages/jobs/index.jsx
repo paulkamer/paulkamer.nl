@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { Breadcrumbtrail } from '../../components/Breadcrumbtrail';
+import { BreadCrumbtrail } from '../../components/Breadcrumbtrail';
 import JobsList from '../../components/JobsList';
 
 const JobsIndexPage = () => {
   return (
     <section>
-      <Breadcrumbtrail trail={[{ label: 'Jobs' }]} />
+      <BreadCrumbtrail trail={[{ label: 'Jobs' }]} />
 
       <JobsList />
     </section>

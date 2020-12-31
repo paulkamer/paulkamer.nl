@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Breadcrumbtrail } from '../../components/Breadcrumbtrail';
+import { BreadCrumbtrail } from '../../components/Breadcrumbtrail';
 
-const JobsIndexPage = () => {
+const StartmePage = () => {
   return (
     <section>
-      <Breadcrumbtrail trail={[{ to: '/jobs/', label: 'Jobs' }, { label: 'start.me' }]} />
+      <BreadCrumbtrail trail={[{ to: '/jobs/', label: 'Jobs' }, { label: 'start.me' }]} />
 
       <h1>start.me | dec 2015 - April 2020</h1>
       <p>
@@ -72,4 +72,4 @@ const JobsIndexPage = () => {
   )
 }
 
-export default JobsIndexPage;
+export default StartmePage;

@@ -1,18 +1,27 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import './Submenu.scss';
+import "./Submenu.scss";
 
-const Submenu = () => {
+const Submenu: React.FC = () => {
   return (
     <div className="submenu">
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/jobs/">Jobs</Link></li>
-        <li><Link to="/projects/">Projects</Link></li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/skills/">Skills</Link>
+        </li>
+        <li>
+          <Link to="/projects/">Side projects</Link>
+        </li>
+        <li>
+          <Link to="/jobs/">Jobs</Link>
+        </li>
       </ul>
     </div>
   );
-}
+};
 
 export default Submenu;
