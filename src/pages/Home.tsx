@@ -4,9 +4,15 @@ import { Link } from "react-router-dom";
 import SkillsList from "../components/SkillsList";
 import JobsList from "../components/JobsList";
 
-import { skills } from "../data/skills";
+import { Discipline, skills } from "../data/skills";
 
 const Home: React.FC = () => {
+  const filteredSkills = skills.filter((skillsGroup) =>
+    [Discipline.Frontend, Discipline.Backend, Discipline.Databases].includes(
+      skillsGroup.discipline
+    )
+  );
+
   return (
     <article className="home-page">
       <section id="bio" className="bio">
@@ -35,7 +41,11 @@ const Home: React.FC = () => {
       </section>
 
       <section id="skills">
-        <SkillsList skills={skills} />
+        <SkillsList skills={filteredSkills} />
+        <p>
+          For a complete overview, see the <Link to="/skills/">skills</Link>{" "}
+          page.
+        </p>
       </section>
 
       <section id="jobs">
@@ -44,8 +54,10 @@ const Home: React.FC = () => {
 
       <section className="projects">
         <h2>Side projects</h2>
-        For an impression of side projects I've worked on, see the{" "}
-        <Link to="/projects/">Side projects page</Link>.
+        <p>
+          For an impression of side projects I've worked on, see the{" "}
+          <Link to="/projects/">Side projects</Link> page.
+        </p>
       </section>
     </article>
   );
