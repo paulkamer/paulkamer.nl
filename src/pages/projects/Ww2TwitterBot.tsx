@@ -2,7 +2,7 @@ import React from "react";
 
 import { BreadCrumbtrail } from "../../components/Breadcrumbtrail";
 
-const Ww2TwitterBotPage = () => {
+const Ww2TwitterBotPage: React.FC = () => {
   return (
     <section>
       <BreadCrumbtrail

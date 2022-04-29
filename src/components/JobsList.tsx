@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import IntroArticle from "./IntroArticle";
+import IntroArticle from './IntroArticle';
 
-import { JobsList as jobs } from "../data/jobs";
+import { JobsList as jobs } from '../data/jobs';
 
-const JobsList = () => {
+const JobsList: React.FC = () => {
   return (
     <section className="jobs">
       <h2>Jobs</h2>

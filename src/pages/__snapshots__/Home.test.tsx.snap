@@ -49,7 +49,7 @@ exports[`renders correctly without any trail items 1`] = `
     id="skills"
   >
     <section
-      className="skills"
+      className="skills--list"
     >
       <h2>
         Skills
@@ -64,7 +64,6 @@ exports[`renders correctly without any trail items 1`] = `
             className="skillsgroup__discipline"
           >
             Back-end
-            :
           </span>
           <ul
             className="skillsgroup__skillslist"
@@ -72,27 +71,47 @@ exports[`renders correctly without any trail items 1`] = `
             <li
               className="skillsgroup__skill"
             >
-              Ruby
+              <span
+                className="skil__name"
+              >
+                Ruby
+              </span>
             </li>
             <li
               className="skillsgroup__skill"
             >
-              Node.js
+              <span
+                className="skil__name"
+              >
+                Node.js
+              </span>
             </li>
             <li
               className="skillsgroup__skill"
             >
-              C# .NET
+              <span
+                className="skil__name"
+              >
+                C# .NET
+              </span>
             </li>
             <li
               className="skillsgroup__skill"
             >
-              PHP
+              <span
+                className="skil__name"
+              >
+                PHP
+              </span>
             </li>
             <li
               className="skillsgroup__skill"
             >
-              Python
+              <span
+                className="skil__name"
+              >
+                Python
+              </span>
             </li>
           </ul>
         </li>
@@ -103,7 +122,6 @@ exports[`renders correctly without any trail items 1`] = `
             className="skillsgroup__discipline"
           >
             Front-end
-            :
           </span>
           <ul
             className="skillsgroup__skillslist"
@@ -111,22 +129,38 @@ exports[`renders correctly without any trail items 1`] = `
             <li
               className="skillsgroup__skill"
             >
-              Vue.js
+              <span
+                className="skil__name"
+              >
+                Vue.js
+              </span>
             </li>
             <li
               className="skillsgroup__skill"
             >
-              React
+              <span
+                className="skil__name"
+              >
+                React
+              </span>
             </li>
             <li
               className="skillsgroup__skill"
             >
-              Angular
+              <span
+                className="skil__name"
+              >
+                Angular
+              </span>
             </li>
             <li
               className="skillsgroup__skill"
             >
-              Riot.js
+              <span
+                className="skil__name"
+              >
+                Riot.js
+              </span>
             </li>
           </ul>
         </li>
@@ -137,7 +171,6 @@ exports[`renders correctly without any trail items 1`] = `
             className="skillsgroup__discipline"
           >
             Databases
-            :
           </span>
           <ul
             className="skillsgroup__skillslist"
@@ -145,27 +178,47 @@ exports[`renders correctly without any trail items 1`] = `
             <li
               className="skillsgroup__skill"
             >
-              PostgreSQL
+              <span
+                className="skil__name"
+              >
+                PostgreSQL
+              </span>
             </li>
             <li
               className="skillsgroup__skill"
             >
-              Redis
+              <span
+                className="skil__name"
+              >
+                Redis
+              </span>
             </li>
             <li
               className="skillsgroup__skill"
             >
-              MySQL
+              <span
+                className="skil__name"
+              >
+                MySQL
+              </span>
             </li>
             <li
               className="skillsgroup__skill"
             >
-              DynamoDB
+              <span
+                className="skil__name"
+              >
+                DynamoDB
+              </span>
             </li>
             <li
               className="skillsgroup__skill"
             >
-              Oracle
+              <span
+                className="skil__name"
+              >
+                Oracle
+              </span>
             </li>
           </ul>
         </li>

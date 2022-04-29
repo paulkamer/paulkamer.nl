@@ -1,57 +1,57 @@
-import React from "react";
+import React from 'react';
 
-import { BreadCrumbtrail } from "../../components/Breadcrumbtrail";
-import { Screenshots } from "../../components/Screenshots";
+import { BreadCrumbtrail } from '../../components/Breadcrumbtrail';
+import { Screenshots } from '../../components/Screenshots';
 
 const wfScreenshots = [
   {
-    url: "/images/projects/worldfootball/homepage.png",
-    thumbUrl: "/images/projects/worldfootball/homepage_thumb.png",
-    alt: "Homepage",
-    title: "Worldfootball.com homepage",
+    url: '/images/projects/worldfootball/homepage.png',
+    thumbUrl: '/images/projects/worldfootball/homepage_thumb.png',
+    alt: 'Homepage',
+    title: 'Worldfootball.com homepage'
   },
   {
-    url: "/images/projects/worldfootball/teampage.png",
-    thumbUrl: "/images/projects/worldfootball/teampage_thumb.png",
-    alt: "Team page",
-    title: "Worldfootball.com team page",
+    url: '/images/projects/worldfootball/teampage.png',
+    thumbUrl: '/images/projects/worldfootball/teampage_thumb.png',
+    alt: 'Team page',
+    title: 'Worldfootball.com team page'
   },
   {
-    url: "/images/projects/worldfootball/matchpage.png",
-    thumbUrl: "/images/projects/worldfootball/matchpage_thumb.png",
-    alt: "Match page",
-    title: "Match page (2018 World Cup Final)",
+    url: '/images/projects/worldfootball/matchpage.png',
+    thumbUrl: '/images/projects/worldfootball/matchpage_thumb.png',
+    alt: 'Match page',
+    title: 'Match page (2018 World Cup Final)'
   },
   {
-    url: "/images/projects/worldfootball/leaguetable.png",
-    thumbUrl: "/images/projects/worldfootball/leaguetable_thumb.png",
-    alt: "League table",
-    title: "Worldfootball.com League table",
-  },
+    url: '/images/projects/worldfootball/leaguetable.png',
+    thumbUrl: '/images/projects/worldfootball/leaguetable_thumb.png',
+    alt: 'League table',
+    title: 'Worldfootball.com League table'
+  }
 ];
 
-const WorldfootballPage = () => {
+const WorldfootballPage: React.FC = () => {
   return (
     <section>
       <BreadCrumbtrail
         trail={[
-          { to: "/projects/", label: "Projects" },
-          { label: "Worldfootball" },
+          { to: '/projects/', label: 'Projects' },
+          { label: 'Worldfootball' }
         ]}
       />
 
       <h1>Worldfootball</h1>
 
       <p>
-        Worldfootball.com was a collaborative project between{" "}
+        Worldfootball.com was a collaborative project between{' '}
         <a
           href="https://datasportsgroup.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           DataSportsGroup
-        </a>{" "}
-        (DSG) and Arjen Robijn, the founder of start.me (see{" "}
+        </a>{' '}
+        (DSG) and Arjen Robijn, the founder of start.me (see{' '}
         <a href="/#jobs">jobs</a>) for whom I work for.
       </p>
 
@@ -73,7 +73,7 @@ const WorldfootballPage = () => {
         of the database, development of the front-end, back-end and data
         synchronization processes, and the infrastructure at Heroku and later
         AWS. <br />
-        The UX/UI design was created by Arjen Robijn &{" "}
+        The UX/UI design was created by Arjen Robijn &{' '}
         <a
           href="http://pauldejong.info/"
           target="_blank"
@@ -95,7 +95,7 @@ const WorldfootballPage = () => {
       <h3>Technology</h3>
       <p>
         The live results and post-match stats were synced from the
-        DataSportsGroup API, by{" "}
+        DataSportsGroup API, by{' '}
         <a
           href="https://github.com/resque/resque"
           target="_blank"
@@ -103,7 +103,7 @@ const WorldfootballPage = () => {
         >
           Resque
         </a>
-        -backed background jobs that were written in{" "}
+        -backed background jobs that were written in{' '}
         <a
           href="https://www.ruby-lang.org/en/"
           target="_blank"
@@ -115,25 +115,25 @@ const WorldfootballPage = () => {
       </p>
       <p>
         Worldfootball relied heavily on Cloudflare for edge-caching. We devised
-        a mechanism to actively purge specific resources using Cloudflare's{" "}
+        a mechanism to actively purge specific resources using Cloudflare's{' '}
         <a
           href="https://api.cloudflare.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           API
-        </a>{" "}
+        </a>{' '}
         when, for example, match results were updated.
       </p>
       <p>
-        We used an{" "}
+        We used an{' '}
         <a
           href="https://www.elastic.co/"
           target="_blank"
           rel="noopener noreferrer"
         >
           ElasticSearch
-        </a>{" "}
+        </a>{' '}
         database for the search feature, which allowed visitors to look up
         competitions, teams, players and venues.
       </p>

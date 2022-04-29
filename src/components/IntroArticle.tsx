@@ -1,22 +1,22 @@
-import React from "react";
+import React from 'react';
 
-import Anchor from "./Anchor";
+import Anchor from './Anchor';
 
-import "./IntroArticle.scss";
+import './IntroArticle.scss';
 
 export interface IntroArticleProps {
   title: string;
   subTitle?: string;
   articleText: React.ReactElement;
   url?: string;
-  externalUrlTarget?: "_self" | "_blank";
+  externalUrlTarget?: '_self' | '_blank';
   imageUrl: string;
   imageAlt?: string;
 }
 
 const IntroArticle: React.FC<IntroArticleProps> = (props) => {
-  let titleElement: React.ReactElement;
-  let imageElement: React.ReactElement;
+  let titleElement: React.ReactElement | null;
+  let imageElement: React.ReactElement | null;
 
   titleElement = (
     <>
@@ -33,18 +33,18 @@ const IntroArticle: React.FC<IntroArticleProps> = (props) => {
 
     titleElement = Anchor({
       isInternal,
-      className: "intro-article__title-link",
+      className: 'intro-article__title-link',
       linkUri: props.url,
       linkContents: titleElement,
-      linkTarget: props.externalUrlTarget,
-    })!;
+      linkTarget: props.externalUrlTarget
+    });
 
     imageElement = Anchor({
       isInternal,
       linkUri: props.url,
       linkContents: imageElement,
-      linkTarget: props.externalUrlTarget,
-    })!;
+      linkTarget: props.externalUrlTarget
+    });
   }
 
   return (

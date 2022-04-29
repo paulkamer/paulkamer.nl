@@ -1,16 +1,16 @@
-import React from "react";
+import React from 'react';
 
-import { BreadCrumbtrail } from "../../components/Breadcrumbtrail";
+import { BreadCrumbtrail } from '../../components/Breadcrumbtrail';
 
-import "./Trialmonitor.scss";
+import './Trialmonitor.scss';
 
-const TrialmonitorPage = () => {
+const TrialmonitorPage: React.FC = () => {
   return (
     <section className="trialmonitor-page">
       <BreadCrumbtrail
         trail={[
-          { to: "/projects/", label: "Projects" },
-          { label: "ClinicalTrials monitor" },
+          { to: '/projects/', label: 'Projects' },
+          { label: 'ClinicalTrials monitor' }
         ]}
       />
 
@@ -21,14 +21,14 @@ const TrialmonitorPage = () => {
         clinicaltrials.gov.
       </p>
       <p>
-        The{" "}
+        The{' '}
         <a
           href="https://clinicaltrials.gov/"
           target="_blank"
           rel="noopener noreferrer"
         >
           clinicaltrials.gov
-        </a>{" "}
+        </a>{' '}
         is a website provided by the U.S. National Library of Medicine. It is a
         database of privately and publicly funded clinical studies conducted
         around the world.
@@ -46,7 +46,7 @@ const TrialmonitorPage = () => {
       </p>
 
       <p>
-        Luckily, they provide an{" "}
+        Luckily, they provide an{' '}
         <a
           href="https://clinicaltrials.gov/ct2/resources/download"
           target="_blank"
@@ -122,14 +122,14 @@ const TrialmonitorPage = () => {
 
       <h2>Frontend</h2>
       <p>
-        A frontend website is available at{" "}
+        A frontend website is available at{' '}
         <a
           href="https://trialsmonitor.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           trialsmonitor.com
-        </a>{" "}
+        </a>{' '}
         (not publicly accessible for now).
         <br />
         The website is written in Angular + TypeScript, and uses AWS Amplify for
@@ -147,8 +147,8 @@ const TrialmonitorPage = () => {
             rel="noopener noreferrer"
           >
             AWS Step Functions
-          </a>{" "}
-          &{" "}
+          </a>{' '}
+          &{' '}
           <a
             href="https://aws.amazon.com/lambda/"
             target="_blank"
@@ -156,7 +156,7 @@ const TrialmonitorPage = () => {
           >
             AWS Lambda
           </a>
-          , written in{" "}
+          , written in{' '}
           <a
             href="https://nodejs.org"
             target="_blank"
@@ -172,8 +172,8 @@ const TrialmonitorPage = () => {
             rel="noopener noreferrer"
           >
             Serverless Framework
-          </a>{" "}
-          in combination with{" "}
+          </a>{' '}
+          in combination with{' '}
           <a
             href="https://aws.amazon.com/cloudformation/"
             target="_blank"
@@ -201,8 +201,8 @@ const TrialmonitorPage = () => {
             rel="noopener noreferrer"
           >
             Angular (v9.x)
-          </a>{" "}
-          +{" "}
+          </a>{' '}
+          +{' '}
           <a
             href="https://www.typescriptlang.org"
             target="_blank"
@@ -212,7 +212,7 @@ const TrialmonitorPage = () => {
           </a>
         </li>
         <li>
-          Deployment + authentication:{" "}
+          Deployment + authentication:{' '}
           <a
             href="https://aws.amazon.com/amplify/"
             target="_blank"
@@ -222,7 +222,7 @@ const TrialmonitorPage = () => {
           </a>
         </li>
         <li>
-          Authentication:{" "}
+          Authentication:{' '}
           <a
             href="https://aws.amazon.com/cognito/"
             target="_blank"
@@ -232,15 +232,15 @@ const TrialmonitorPage = () => {
           </a>
         </li>
         <li>
-          Hosting:{" "}
+          Hosting:{' '}
           <a
             href="https://aws.amazon.com/s3/"
             target="_blank"
             rel="noopener noreferrer"
           >
             AWS S3
-          </a>{" "}
-          +{" "}
+          </a>{' '}
+          +{' '}
           <a
             href="https://aws.amazon.com/cloudfront/"
             target="_blank"

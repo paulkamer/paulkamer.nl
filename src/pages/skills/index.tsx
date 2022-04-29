@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react';
 
-import { BreadCrumbtrail } from "../../components/Breadcrumbtrail";
-import SkillsList from "../../components/SkillsList";
-import { skills } from "../../data/skills";
+import { BreadCrumbtrail } from '../../components/Breadcrumbtrail';
+import SkillsList from '../../components/SkillsList';
+import { skills } from '../../data/skills';
 
-const SkillsIndexPage = () => {
+const SkillsIndexPage: React.FC = () => {
   return (
     <section>
-      <BreadCrumbtrail trail={[{ label: "Skills" }]} />
+      <BreadCrumbtrail trail={[{ label: 'Skills' }]} />
 
-      <SkillsList skills={skills} />
+      <SkillsList skills={skills} variant={'expanded'} />
     </section>
   );
 };

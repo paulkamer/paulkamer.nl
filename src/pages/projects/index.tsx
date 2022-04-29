@@ -1,13 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import { BreadCrumbtrail } from "../../components/Breadcrumbtrail";
-import IntroArticle from "../../components/IntroArticle";
+import { BreadCrumbtrail } from '../../components/Breadcrumbtrail';
+import IntroArticle from '../../components/IntroArticle';
 
-const ProjectsIndexPage = () => {
+const ProjectsIndexPage: React.FC = () => {
   return (
     <section>
-      <BreadCrumbtrail trail={[{ label: "Side projects" }]} />
+      <BreadCrumbtrail trail={[{ label: 'Side projects' }]} />
       <h1>Side projects</h1>
 
       <IntroArticle
@@ -19,7 +19,7 @@ const ProjectsIndexPage = () => {
               on ClinicalTrials.gov.
             </p>
             <p>
-              <Link to="/projects/trialsmonitor/">Description</Link> |{" "}
+              <Link to="/projects/trialsmonitor/">Description</Link> |{' '}
               <a
                 href="https://github.com/paulkamer/trialmonitor"
                 target="_blank"
@@ -40,7 +40,7 @@ const ProjectsIndexPage = () => {
           <article>
             <p>A twitter bot that tweets famous WW2-related quotes.</p>
             <p>
-              <Link to="/projects/ww2quotesbot/">Description</Link> |{" "}
+              <Link to="/projects/ww2quotesbot/">Description</Link> |{' '}
               <a
                 href="https://github.com/paulkamer/ww2quotesbot"
                 target="_blank"

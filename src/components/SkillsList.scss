@@ -1,4 +1,4 @@
-@import '../styles/variables';
+@import "../styles/variables";
 
 .skills {
   &__skillslist {
@@ -12,6 +12,10 @@
       &__discipline {
         padding-right: 0.5em;
         font-weight: bold;
+
+        &::after {
+          content: ":";
+        }
       }
 
       &__skillslist {
@@ -29,6 +33,77 @@
 
         &:last-of-type::after {
           content: none;
+        }
+      }
+
+      .skill {
+        &__rating {
+          &[data-rating="1"]::before {
+            content: "★";
+          }
+
+          &[data-rating="2"]::before {
+            content: "★★";
+          }
+
+          &[data-rating="3"]::before {
+            content: "★★★";
+          }
+
+          &[data-rating="4"]::before {
+            content: "★★★★";
+          }
+
+          &[data-rating="5"]::before {
+            content: "★★★★★";
+          }
+        }
+      }
+    }
+  }
+
+  &--expanded {
+    .skillsgroup {
+      padding-bottom: 1em;
+
+      &__skillslist {
+        display: block;
+      }
+
+      &__discipline {
+        &::after {
+          content: none; // Hide colon
+        }
+      }
+
+      &__skill {
+        display: block;
+        max-width: 15em;
+
+        &::after {
+          display: none; // Hide skill separator
+        }
+
+        .skill {
+          &__rating {
+            float: right;
+
+            &[data-rating="1"] {
+              padding-right: 4em;
+            }
+
+            &[data-rating="2"] {
+              padding-right: 3em;
+            }
+
+            &[data-rating="3"] {
+              padding-right: 2em;
+            }
+
+            &[data-rating="4"] {
+              padding-right: 1em;
+            }
+          }
         }
       }
     }

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { BreadCrumbtrail } from '../../components/Breadcrumbtrail';
 
-const GsmPerformPage = () => {
+const GsmPerformPage: React.FC = () => {
   return (
     <section>
       <BreadCrumbtrail trail={[{ to: '/jobs/', label: 'Jobs' }, { label: 'GSM / Perform' }]} />
@@ -13,7 +13,7 @@ const GsmPerformPage = () => {
 
       <p>
         In 2014, GSM was fully acquired by the British company Perform Group.
-        At the same time, I was promoted to Software Architect. Perform then had around 120 developers and 10 software architects.<br/>
+        At the same time, I was promoted to Software Architect. Perform then had around 120 developers and 10 software architects.<br />
         Perform itself later merged with the US company "Stats", to form <a href="https://www.statsperform.com/" target="_blank" rel="noopener noreferrer">Stats Perform</a>. GSM was renamed to Opta Core, after it was merged with <a href="https://www.optasports.com/" target="_blank" rel="noopener noreferrer">Opta Sports</a>.
       </p>
 
@@ -25,7 +25,7 @@ const GsmPerformPage = () => {
 
       <p>The technology stack comprised of the following:</p>
       <ul>
-        <li>LAMP: Linux, Apache, PHP, MySQL (master DB with > 8 followers)</li>
+        <li>LAMP: Linux, Apache, PHP, MySQL (master DB with &gt;8 followers)</li>
         <li>Symfony 1, Symfony 2, Doctrine, Dependency Injection</li>
         <li>RabbitMQ</li>
         <li>Redis</li>

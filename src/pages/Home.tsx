@@ -41,7 +41,7 @@ const Home: React.FC = () => {
       </section>
 
       <section id="skills">
-        <SkillsList skills={filteredSkills} />
+        <SkillsList skills={filteredSkills} variant={"list"} />
         <p>
           For a complete overview, see the <Link to="/skills/">skills</Link>{" "}
           page.

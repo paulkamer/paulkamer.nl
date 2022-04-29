@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { BreadCrumbtrail } from '../../components/Breadcrumbtrail';
 
-const StartmePage = () => {
+const StartmePage: React.FC = () => {
   return (
     <section>
       <BreadCrumbtrail trail={[{ to: '/jobs/', label: 'Jobs' }, { label: 'start.me' }]} />
