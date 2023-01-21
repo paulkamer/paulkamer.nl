@@ -72,7 +72,7 @@
 
       &__discipline {
         &::after {
-          content: none; // Hide colon
+          content: none;
         }
       }
 
@@ -81,7 +81,7 @@
         max-width: 15em;
 
         &::after {
-          display: none; // Hide skill separator
+          display: none;
         }
 
         .skill {

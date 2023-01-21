@@ -1,9 +1,9 @@
-@import './styles/variables';
-@import './styles/mixins';
+@import "./styles/variables";
+@import "./styles/mixins";
 
 body {
   overflow-y: scroll;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: $body-bg-color;
@@ -19,7 +19,7 @@ h1,
 h2,
 h3,
 h4 {
-  margin: 1em 0 0.5em 0;
+  margin: 1em 0 0.5em;
 }
 
 a {

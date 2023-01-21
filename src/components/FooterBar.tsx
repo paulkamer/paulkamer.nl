@@ -37,7 +37,7 @@ const FooterBar: React.FC = () => {
           <img src="/images/mail.svg" alt="email" />
         </a>
       </div>
-      <div className="footerbar__section">last updated Jan 2021</div>
+      <div className="footerbar__section">last updated Jan 2023</div>
     </footer>
   );
 };

@@ -25,20 +25,19 @@ export const skills: SkillsListType = [
   {
     discipline: Discipline.Backend,
     skills: [
+      { name: "C# .NET", rating: 4 },
+      { name: "Python", rating: 4 },
       { name: "Ruby", rating: 4 },
-      { name: "Node.js", rating: 4 },
-      { name: "C# .NET", rating: 2 },
-      { name: "PHP", rating: 4 },
-      { name: "Python", rating: 2 },
+      { name: "Node.js", rating: 3 },
+      { name: "PHP", rating: 3 },
     ],
   },
   {
     discipline: Discipline.Frontend,
     skills: [
-      { name: "Vue.js", rating: 5 },
-      { name: "React", rating: 4 },
+      { name: "React", rating: 5 },
+      { name: "Vue.js", rating: 4 },
       { name: "Angular", rating: 3 },
-      { name: "Riot.js", rating: 3 },
     ],
   },
   {
@@ -47,17 +46,16 @@ export const skills: SkillsListType = [
       { name: "PostgreSQL", rating: 4 },
       { name: "Redis", rating: 4 },
       { name: "MySQL", rating: 4 },
-      { name: "DynamoDB", rating: 3 },
+      { name: "DynamoDB", rating: 2 },
       { name: "Oracle", rating: 2 },
     ],
   },
   {
     discipline: Discipline.SearchQueues,
     skills: [
+      { name: "Resque (Ruby)", rating: 4 },
       { name: "Elasticsearch", rating: 3 },
       { name: "RabbitMQ", rating: 3 },
-      { name: "Resque (Ruby)", rating: 4 },
-      { name: "Celery (Python)", rating: 3 },
     ],
   },
   {
@@ -102,13 +100,13 @@ export const skills: SkillsListType = [
   {
     discipline: Discipline.Misc,
     skills: [
+      { name: "Docker", rating: 5 },
       { name: "Git", rating: 5 },
-      { name: "Docker", rating: 4 },
       { name: "SQL", rating: 4 },
+      { name: "UML", rating: 4 },
       { name: "Nginx", rating: 3 },
       { name: "Apache", rating: 3 },
       { name: "JMeter", rating: 3 },
-      { name: "UML", rating: 4 },
       { name: "ArchiMate", rating: 2 },
     ],
   },

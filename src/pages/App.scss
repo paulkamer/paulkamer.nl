@@ -26,7 +26,7 @@
   &__page-container {
     width: 100%;
     height: 100%;
-    padding: 1em 4em 1em 4em;
+    padding: 1em 4em;
 
     @include mobile {
       padding: 0 1em;
@@ -36,7 +36,7 @@
       font-weight: bold;
     }
 
-    > section {
+    >section {
       position: relative;
       height: 100%;
     }

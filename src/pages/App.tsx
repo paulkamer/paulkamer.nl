@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './Home';
 import HeaderBar from '../components/HeaderBar';
@@ -36,49 +36,46 @@ const App: React.FC = () => {
         <div className="app-main__submenu">
           <Submenu />
         </div>
-        <Switch>
-          <Route>
-            <div className="app-main__page-container">
-              <Suspense fallback={<Loader />}>
-                <Route exact path="/" component={Home} />
+        <div className="app-main__page-container">
+          <Suspense fallback={<Loader />}>
+            <Routes>
+              <Route>
+                <Route path="/" element={<Suspense><Home /></Suspense>} />
                 <Route
-                  exact
                   path="/projects/worldfootball/"
-                  component={ProjectWorldfootballPage}
+                  element={<Suspense><ProjectWorldfootballPage /></Suspense>}
                 />
                 <Route
-                  exact
                   path="/projects/trialsmonitor/"
-                  component={ClinicaltrialsmonitorPage}
+                  element={<Suspense><ClinicaltrialsmonitorPage /></Suspense>}
                 />
                 <Route
-                  exact
+
                   path="/projects/trialmonitor/"
-                  component={ClinicaltrialsmonitorPage}
+                  element={<Suspense ><ClinicaltrialsmonitorPage /></Suspense>}
                 />
                 <Route
-                  exact
+
                   path="/projects/ww2quotesbot/"
-                  component={ProjectWw2TwitterBotPage}
+                  element={<Suspense><ProjectWw2TwitterBotPage /></Suspense>}
                 />
-                <Route exact path="/projects/" component={ProjectsIndexPage} />
-                <Route exact path="/jobs/startme" component={JobStartmePage} />
+                <Route path="/projects/" element={<Suspense><ProjectsIndexPage /></Suspense>} />
+                <Route path="/jobs/startme" element={<Suspense><JobStartmePage /></Suspense>} />
                 <Route
-                  exact
                   path="/jobs/gsm_perform"
-                  component={JobGsmPerformPage}
+                  element={<Suspense><JobGsmPerformPage /></Suspense>}
                 />
-                <Route exact path="/jobs/gsm" component={JobGsmPerformPage} />
-                <Route exact path="/jobs/" component={JobsIndexPage} />
-                <Route exact path="/skills/" component={SkillsIndexPage} />
-              </Suspense>
-            </div>
-          </Route>
-        </Switch>
+                <Route path="/jobs/gsm" element={<Suspense><JobGsmPerformPage /></Suspense>} />
+                <Route path="/jobs/" element={<Suspense><JobsIndexPage /></Suspense>} />
+                <Route path="/skills/" element={<Suspense><SkillsIndexPage /></Suspense>} />
+              </Route>
+            </Routes >
+          </Suspense>
+        </div>
 
         <FooterBar />
-      </main>
-    </Router>
+      </main >
+    </Router >
   );
 };
 

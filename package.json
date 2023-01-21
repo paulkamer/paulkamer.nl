@@ -4,63 +4,53 @@
   "private": true,
   "homepage": "https://paulkamer.nl/",
   "dependencies": {
-    "baguettebox.js": "^1.11",
-    "gh-pages": "^3.0",
-    "react": "^17.0",
-    "react-dom": "^17.0",
-    "react-router-dom": "^5.2",
-    "react-scripts": "^4.0",
-    "typescript": "^4.0"
+    "baguettebox.js": "^1.11.1",
+    "gh-pages": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.7.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.4"
   },
   "scripts": {
     "start": "react-app-rewired start",
     "lint": "eslint . --ext .ts,.tsx",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "build-css": "node-sass-chokidar src/ -o src/",
-    "watch-css": "yarn run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "predeploy": "yarn run build && cp CNAME ./build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+  "browserslist": [
+    "defaults"
+  ],
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.8",
-    "@testing-library/react": "^12.0",
-    "@testing-library/user-event": "^13.0",
-    "@types/jest": "^26.0.19",
-    "@types/node": "^16.0",
-    "@types/react": "^17.0",
-    "@types/react-dom": "^17.0",
-    "@types/react-router-dom": "^5.1",
-    "@types/react-test-renderer": "^17.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.29.0",
-    "@typescript-eslint/parser": "^4.29.0",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.24.0",
-    "node-sass-chokidar": "^1.5",
-    "prettier": "^2.3.2",
-    "react-app-rewired": "^2.1.8",
-    "react-test-renderer": "^17.0.1",
-    "stylelint": "^13.8",
-    "stylelint-config-recess-order": "^2.3",
-    "stylelint-config-standard": "^22.0",
-    "stylelint-webpack-plugin": "^3.0"
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.2.6",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-test-renderer": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.1",
+    "prettier": "^2.8.3",
+    "react-app-rewired": "^2.2.1",
+    "react-test-renderer": "^18.2.0",
+    "sass": "^1.57.1",
+    "stylelint": "^14.16.1",
+    "stylelint-config-recess-order": "^3.1.0",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-webpack-plugin": "^3.3.0"
   }
 }

@@ -74,6 +74,24 @@ exports[`renders correctly without any trail items 1`] = `
               <span
                 className="skil__name"
               >
+                C# .NET
+              </span>
+            </li>
+            <li
+              className="skillsgroup__skill"
+            >
+              <span
+                className="skil__name"
+              >
+                Python
+              </span>
+            </li>
+            <li
+              className="skillsgroup__skill"
+            >
+              <span
+                className="skil__name"
+              >
                 Ruby
               </span>
             </li>
@@ -92,25 +110,7 @@ exports[`renders correctly without any trail items 1`] = `
               <span
                 className="skil__name"
               >
-                C# .NET
-              </span>
-            </li>
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
                 PHP
-              </span>
-            </li>
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
-                Python
               </span>
             </li>
           </ul>
@@ -132,15 +132,6 @@ exports[`renders correctly without any trail items 1`] = `
               <span
                 className="skil__name"
               >
-                Vue.js
-              </span>
-            </li>
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
                 React
               </span>
             </li>
@@ -150,7 +141,7 @@ exports[`renders correctly without any trail items 1`] = `
               <span
                 className="skil__name"
               >
-                Angular
+                Vue.js
               </span>
             </li>
             <li
@@ -159,7 +150,7 @@ exports[`renders correctly without any trail items 1`] = `
               <span
                 className="skil__name"
               >
-                Riot.js
+                Angular
               </span>
             </li>
           </ul>
