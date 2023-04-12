@@ -11,6 +11,7 @@ import '../styles/variables.scss';
 import './App.scss';
 
 const JobsIndexPage = React.lazy(() => import('./jobs'));
+const JobNetcompanyPage = React.lazy(() => import('./jobs/Netcompany'));
 const JobStartmePage = React.lazy(() => import('./jobs/Startme'));
 const JobGsmPerformPage = React.lazy(() => import('./jobs/GsmPerform'));
 
@@ -60,6 +61,7 @@ const App: React.FC = () => {
                   element={<Suspense><ProjectWw2TwitterBotPage /></Suspense>}
                 />
                 <Route path="/projects/" element={<Suspense><ProjectsIndexPage /></Suspense>} />
+                <Route path="/jobs/netcompany" element={<Suspense><JobNetcompanyPage /></Suspense>} />
                 <Route path="/jobs/startme" element={<Suspense><JobStartmePage /></Suspense>} />
                 <Route
                   path="/jobs/gsm_perform"

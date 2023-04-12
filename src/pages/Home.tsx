@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import SkillsList from "../components/SkillsList";
 import JobsList from "../components/JobsList";
+import CertificationsList from "../components/CertificationsList";
 
 import { Discipline, skills } from "../data/skills";
 
@@ -50,6 +51,10 @@ const Home: React.FC = () => {
 
       <section id="jobs">
         <JobsList />
+      </section>
+
+      <section id="certificates">
+        <CertificationsList />
       </section>
 
       <section className="projects">

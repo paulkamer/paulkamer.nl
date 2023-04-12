@@ -78,31 +78,16 @@
 
       &__skill {
         display: block;
-        max-width: 15em;
 
         &::after {
           display: none;
         }
 
         .skill {
+          font-family: monospace;
+
           &__rating {
-            float: right;
-
-            &[data-rating="1"] {
-              padding-right: 4em;
-            }
-
-            &[data-rating="2"] {
-              padding-right: 3em;
-            }
-
-            &[data-rating="3"] {
-              padding-right: 2em;
-            }
-
-            &[data-rating="4"] {
-              padding-right: 1em;
-            }
+            padding-left: 1em;
           }
         }
       }

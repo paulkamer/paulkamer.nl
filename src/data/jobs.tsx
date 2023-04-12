@@ -12,8 +12,8 @@ export const JobsList: Job[] = [
   {
     company: "Netcompany",
     tenure: "May 2020 - current",
-    url: "https://www.netcompany.com/nl",
     logo_url: "/images/logo-netcompany.png",
+    url: "/jobs/netcompany",
     text: (
       <section>
         <p>
@@ -22,7 +22,7 @@ export const JobsList: Job[] = [
           enterprises and governments. It is an international company with
           offices in 6 countries, with over 2.500 employees.
         </p>
-        <p>My role is Senior Specialist / Lead Developer.</p>
+        <p>My curreny role at Netcompany is Managing Architect.</p>
       </section>
     ),
   },

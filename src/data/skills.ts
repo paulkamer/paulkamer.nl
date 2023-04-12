@@ -26,18 +26,18 @@ export const skills: SkillsListType = [
     discipline: Discipline.Backend,
     skills: [
       { name: "C# .NET", rating: 4 },
+      { name: "TypeScript", rating: 4 },
       { name: "Python", rating: 4 },
-      { name: "Ruby", rating: 4 },
-      { name: "Node.js", rating: 3 },
-      { name: "PHP", rating: 3 },
+      { name: "Ruby", rating: 3 },
     ],
   },
   {
     discipline: Discipline.Frontend,
     skills: [
       { name: "React", rating: 5 },
-      { name: "Vue.js", rating: 4 },
-      { name: "Angular", rating: 3 },
+      { name: "Vue.js", rating: 3 },
+      { name: "Angular", rating: 2 },
+      { name: "CSS/Sass/Less", rating: 4 },
     ],
   },
   {
@@ -45,9 +45,7 @@ export const skills: SkillsListType = [
     skills: [
       { name: "PostgreSQL", rating: 4 },
       { name: "Redis", rating: 4 },
-      { name: "MySQL", rating: 4 },
-      { name: "DynamoDB", rating: 2 },
-      { name: "Oracle", rating: 2 },
+      { name: "MySQL/MariaDB", rating: 4 },
     ],
   },
   {
@@ -61,16 +59,16 @@ export const skills: SkillsListType = [
   {
     discipline: Discipline.Cloud,
     skills: [
-      { name: "EC2", rating: 4 },
-      { name: "S3", rating: 4 },
-      { name: "CloudFront", rating: 3 },
-      { name: "API Gateway", rating: 3 },
-      { name: "CloudFormation", rating: 3 },
-      { name: "Lambda", rating: 4 },
-      { name: "Step Functions", rating: 3 },
-      { name: "Amplify", rating: 3 },
-      { name: "Cognito", rating: 3 },
+      { name: "Azure AKS", rating: 4 },
+      { name: "Azure Web Apps", rating: 3 },
+      { name: "Azure ARM templates", rating: 4 },
+      { name: "AWS EC2", rating: 4 },
+      { name: "AWS S3", rating: 4 },
+      { name: "AWS CloudFront", rating: 3 },
+      { name: "AWS CloudFormation", rating: 3 },
+      { name: "AWS Lambda + Step Functions", rating: 4 },
       { name: "Serverless Framework", rating: 3 },
+      { name: "Cloudflare", rating: 4 },
     ],
   },
   {
@@ -78,8 +76,6 @@ export const skills: SkillsListType = [
     skills: [
       { name: "Heroku", rating: 5 },
       { name: "DigitalOcean", rating: 3 },
-      { name: "Cloudflare", rating: 4 },
-      { name: "Akamai", rating: 2 },
     ],
   },
   {
@@ -87,12 +83,9 @@ export const skills: SkillsListType = [
     skills: [
       { name: "Jest", rating: 4 },
       { name: "Mocha", rating: 4 },
-      { name: "Ava", rating: 3 },
       { name: "Enzyme", rating: 3 },
       { name: "Sinon", rating: 4 },
       { name: "Chai", rating: 4 },
-      { name: "Cypress", rating: 3 },
-      { name: "Selenium", rating: 3 },
       { name: "Ruby minitest", rating: 3 },
       { name: "RSpec", rating: 3 },
     ],
