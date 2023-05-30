@@ -1,0 +1,1 @@
+export const lastUpdated: Date = new Date('2023-05-20');

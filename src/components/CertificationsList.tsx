@@ -10,7 +10,7 @@ const CertificationsList: React.FC = () => {
             <ul className="certificates__certificateslist">
                 {certificates.map((certificate, index) => (
                     <li key={`cert_${index}`} className="certificate">
-                        <a href={certificate.credly_url} target="_blank">{certificate.start_date.toLocaleDateString('en-us', { year: "numeric", month: "short", day: "numeric" })} {certificate.name}</a>
+                        <a href={certificate.credly_url} target="_blank">{certificate.name} ({certificate.start_date.toLocaleDateString('en-us', { year: "numeric", month: "short", day: "numeric" })})</a>
                     </li>
                 ))}
             </ul>

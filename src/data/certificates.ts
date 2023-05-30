@@ -36,4 +36,11 @@ export const certificates: CertificatesListType = [
         start_date: new Date('2023-03-03'),
         end_date: new Date('2024-03-03'),
     },
+    {
+        name: "Azure Solutions Architect Expert",
+        issued_by: "Microsoft",
+        credly_url: "https://www.credly.com/badges/7ef7332c-1955-42a3-abd8-c93086c89c13",
+        start_date: new Date('2023-05-19'),
+        end_date: new Date('2024-05-19'),
+    },    
 ];

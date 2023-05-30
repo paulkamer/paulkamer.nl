@@ -20,10 +20,6 @@ const HeaderBar: React.FC = () => {
           <h1>Paul Kamer</h1>
         </Link>
       </div>
-
-      <div className="HeaderBar__submenu">
-        <Submenu />
-      </div>
     </header>
   );
 };

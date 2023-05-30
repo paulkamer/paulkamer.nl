@@ -3,6 +3,12 @@
 .intro-article {
   $image-diameter: 80px;
 
+  margin-bottom: 0.5em;
+
+  h3 {
+    margin-top: 0;
+  }
+
   &__title-link {
     color: $color-black;
   }

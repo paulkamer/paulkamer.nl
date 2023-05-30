@@ -11,12 +11,6 @@ const Submenu: React.FC = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/skills/">Skills</Link>
-        </li>
-        <li>
-          <Link to="/projects/">Side projects</Link>
-        </li>
-        <li>
           <Link to="/jobs/">Jobs</Link>
         </li>
       </ul>
