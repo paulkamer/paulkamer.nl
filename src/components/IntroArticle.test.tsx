@@ -1,6 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { render, screen } from "@testing-library/react";
+import { render, screen, act } from "@testing-library/react";
 
 import IntroArticle, { IntroArticleProps } from "./IntroArticle";
 
@@ -25,9 +24,7 @@ const testArticleWithoutUrl: IntroArticleProps = {
 };
 
 it("renders without crashing", () => {
-  const div = document.createElement("div");
-
-  ReactDOM.render(<IntroArticle {...testArticle1} />, div);
+  render(<IntroArticle {...testArticle1} />);
 });
 
 it("renders the title, subtitle and article", () => {

@@ -12,22 +12,10 @@ exports[`renders correctly without any trail items 1`] = `
       About me
     </h2>
     <p>
-      I'm an experienced full-stack web developer, more inclined towards back-end development, from The Hague in The Netherlands.
+      I am a software architect with a background in full-stack development, specializing in C# .NET, Python, and TypeScript. I'm passionate about creating robust and scalable software solutions. I possess expertise in cloud technology, particularly Azure, as well as a strong focus on backend development.
     </p>
     <p>
-      I've worked in the sports data industry for over 8 years. The last 4 years I worked as a Tech Lead for
-       
-      <a
-        href="https://start.me"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        start.me
-      </a>
-      , an online start page/bookmark manager service.
-    </p>
-    <p>
-      My main interests & experience are: Ruby, Node, PHP, PostgreSQL, JS (vanilla, Vue & React), cloud & serverless.
+      Throughout my career, I have actively mentored and provided guidance to fellow developers and acted as team lead for several projects. I am adept at analyzing business requirements and translating them into technical solutions, aligning with industry best practices and standards.
     </p>
     <p>
       Download my CV: 
@@ -43,188 +31,6 @@ exports[`renders correctly without any trail items 1`] = `
       >
         English
       </a>
-    </p>
-  </section>
-  <section
-    id="skills"
-  >
-    <section
-      className="skills--list"
-    >
-      <h2>
-        Skills
-      </h2>
-      <ul
-        className="skills__skillslist"
-      >
-        <li
-          className="skillsgroup"
-        >
-          <span
-            className="skillsgroup__discipline"
-          >
-            Back-end
-          </span>
-          <ul
-            className="skillsgroup__skillslist"
-          >
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
-                C# .NET
-              </span>
-            </li>
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
-                Python
-              </span>
-            </li>
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
-                Ruby
-              </span>
-            </li>
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
-                Node.js
-              </span>
-            </li>
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
-                PHP
-              </span>
-            </li>
-          </ul>
-        </li>
-        <li
-          className="skillsgroup"
-        >
-          <span
-            className="skillsgroup__discipline"
-          >
-            Front-end
-          </span>
-          <ul
-            className="skillsgroup__skillslist"
-          >
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
-                React
-              </span>
-            </li>
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
-                Vue.js
-              </span>
-            </li>
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
-                Angular
-              </span>
-            </li>
-          </ul>
-        </li>
-        <li
-          className="skillsgroup"
-        >
-          <span
-            className="skillsgroup__discipline"
-          >
-            Databases
-          </span>
-          <ul
-            className="skillsgroup__skillslist"
-          >
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
-                PostgreSQL
-              </span>
-            </li>
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
-                Redis
-              </span>
-            </li>
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
-                MySQL
-              </span>
-            </li>
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
-                DynamoDB
-              </span>
-            </li>
-            <li
-              className="skillsgroup__skill"
-            >
-              <span
-                className="skil__name"
-              >
-                Oracle
-              </span>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-    <p>
-      For a complete overview, see the 
-      <a
-        href="/skills/"
-        onClick={[Function]}
-      >
-        skills
-      </a>
-       
-      page.
     </p>
   </section>
   <section
@@ -244,8 +50,8 @@ exports[`renders correctly without any trail items 1`] = `
         >
           <a
             className="intro-article__title-link"
-            href="https://www.netcompany.com/nl"
-            target="_blank"
+            href="/jobs/netcompany"
+            onClick={[Function]}
           >
             Netcompany
             <span
@@ -262,8 +68,8 @@ exports[`renders correctly without any trail items 1`] = `
             className="intro-article__image"
           >
             <a
-              href="https://www.netcompany.com/nl"
-              target="_blank"
+              href="/jobs/netcompany"
+              onClick={[Function]}
             >
               <img
                 alt="Netcompany"
@@ -279,7 +85,7 @@ exports[`renders correctly without any trail items 1`] = `
                 Netcompany provides end to end services from advisory over development and implementation to operation of large IT solutions to large enterprises and governments. It is an international company with offices in 6 countries, with over 2.500 employees.
               </p>
               <p>
-                My role is Senior Specialist / Lead Developer.
+                My curreny role at Netcompany is Managing Architect.
               </p>
             </section>
           </div>
@@ -435,22 +241,97 @@ exports[`renders correctly without any trail items 1`] = `
     </section>
   </section>
   <section
-    className="projects"
+    id="certificates"
   >
-    <h2>
-      Side projects
-    </h2>
-    <p>
-      For an impression of side projects I've worked on, see the
-       
-      <a
-        href="/projects/"
-        onClick={[Function]}
+    <section
+      className="certificates"
+    >
+      <h2>
+        Certificates
+      </h2>
+      <ul
+        className="certificates__certificateslist"
       >
-        Side projects
-      </a>
-       page.
-    </p>
+        <li
+          className="certificate"
+        >
+          <a
+            href="https://www.credly.com/badges/9ba87db8-82ce-4bf6-bc78-aef0e999e05f"
+            target="_blank"
+          >
+            Azure Fundamentals
+             (
+            Apr 30, 2021
+            )
+          </a>
+        </li>
+        <li
+          className="certificate"
+        >
+          <a
+            href="https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/5818367a1b1c1d9"
+            target="_blank"
+          >
+            Azure Developer Associate
+             (
+            May 31, 2021
+            )
+          </a>
+        </li>
+        <li
+          className="certificate"
+        >
+          <a
+            href="https://www.credly.com/badges/5393ae1c-dfe0-413a-beba-6d40c800f4c2"
+            target="_blank"
+          >
+            Certified Kubernetes Application Developer (CKAD)
+             (
+            Nov 14, 2021
+            )
+          </a>
+        </li>
+        <li
+          className="certificate"
+        >
+          <a
+            href="https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/8b360250ee368418"
+            target="_blank"
+          >
+            Azure Administrator Associate
+             (
+            Mar 3, 2023
+            )
+          </a>
+        </li>
+        <li
+          className="certificate"
+        >
+          <a
+            href="https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/e4cb17c3d5e0c7a8"
+            target="_blank"
+          >
+            Azure Solutions Architect Expert
+             (
+            May 19, 2023
+            )
+          </a>
+        </li>
+        <li
+          className="certificate"
+        >
+          <a
+            href="https://www.credly.com/badges/ea9e2396-0f7f-4975-a95f-9b2e019eeaa1"
+            target="_blank"
+          >
+            TOGAF 9 Certified
+             (
+            Feb 3, 2024
+            )
+          </a>
+        </li>
+      </ul>
+    </section>
   </section>
 </article>
 `;

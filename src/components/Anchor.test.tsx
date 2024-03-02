@@ -1,7 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { render } from "@testing-library/react";
-
+import { createRoot } from 'react-dom/client';
+import { act } from '@testing-library/react';
 import Anchor, { AnchorProps } from "./Anchor";
 import { BrowserRouter } from "react-router-dom";
 
@@ -28,9 +28,7 @@ const testAnchorInternalLink: AnchorProps = {
 };
 
 it("renders without crashing", () => {
-  const div = document.createElement("div");
-
-  ReactDOM.render(<Anchor {...testAnchor1} />, div);
+  render(<Anchor {...testAnchor1} />);
 });
 
 it("renders the link with provided contents", () => {
