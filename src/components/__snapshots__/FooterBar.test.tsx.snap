@@ -44,8 +44,9 @@ exports[`renders correctly 1`] = `
   <div
     className="footerbar__section"
   >
-    last updated 
-    May 2023
+    last updated
+     
+    March 2024
   </div>
 </footer>
 `;
