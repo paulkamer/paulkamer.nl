@@ -1,20 +1,20 @@
-import React from "react";
-import { BrowserRouter } from "react-router-dom";
-import renderer from "react-test-renderer";
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import renderer from 'react-test-renderer';
 
-import { BreadCrumbtrail } from "./Breadcrumbtrail";
+import { BreadCrumbtrail } from './Breadcrumbtrail';
 
 const testTrailItems = [
   {
-    label: "Jobs",
-    to: "/jobs",
+    label: 'Jobs',
+    to: '/jobs'
   },
   {
-    label: "Non-link item",
-  },
+    label: 'Non-link item'
+  }
 ];
 
-it("renders correctly without any trail items", () => {
+it('renders correctly without any trail items', () => {
   const tree = renderer
     .create(
       <BrowserRouter>
@@ -26,7 +26,7 @@ it("renders correctly without any trail items", () => {
   expect(tree).toMatchSnapshot();
 });
 
-it("renders correctly with trail items", () => {
+it('renders correctly with trail items', () => {
   const tree = renderer
     .create(
       <BrowserRouter>

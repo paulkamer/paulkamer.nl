@@ -6,24 +6,36 @@ import { BreadCrumbtrail } from '../../components/Breadcrumbtrail';
 const StartmePage: React.FC = () => {
   return (
     <section>
-      <BreadCrumbtrail trail={[{ to: '/jobs/', label: 'Jobs' }, { label: 'start.me' }]} />
+      <BreadCrumbtrail
+        trail={[{ to: '/jobs/', label: 'Jobs' }, { label: 'start.me' }]}
+      />
 
       <h1>start.me | dec 2015 - April 2020</h1>
       <p>
-        <a href="https://start.me" target="_blank" rel="noopener noreferrer">start.me</a> is an online start page/bookmark manager for both personal and professional use.<br/>
-        I previously worked for the founder of start.me already, at Global Sports Media (see <Link to="/jobs/">jobs</Link>).</p>
-
-      <p>start.me has over two million monthly active users, who have stored tens of millions of bookmarks. For the RSS widget that we offer, we keep track of 150.000+ RSS feeds.
+        <a href="https://start.me" target="_blank" rel="noopener noreferrer">
+          start.me
+        </a>{' '}
+        is an online start page/bookmark manager for both personal and
+        professional use.
+        <br />I previously worked for the founder of start.me already, at Global
+        Sports Media (see <Link to="/jobs/">jobs</Link>).
       </p>
 
       <p>
-        As Tech Lead for start.me I was responsible for the following:
+        start.me has over two million monthly active users, who have stored tens
+        of millions of bookmarks. For the RSS widget that we offer, we keep
+        track of 150.000+ RSS feeds.
       </p>
+
+      <p>As Tech Lead for start.me I was responsible for the following:</p>
 
       <ul>
         <li>Architect & develop new features/solutions</li>
         <li>Develop and maintain the Ruby on Rails-based API</li>
-        <li>Performance monitoring & fine-tuning (both server-side and client-side)</li>
+        <li>
+          Performance monitoring & fine-tuning (both server-side and
+          client-side)
+        </li>
         <li>Platform maintenance</li>
         <li>Front-end development</li>
       </ul>
@@ -38,7 +50,10 @@ const StartmePage: React.FC = () => {
         <li>CI/CD: Heroku CI & Heroku Pipelines</li>
         <li>API/backend: Ruby on Rails, Node.js</li>
         <li>Background jobs: Redis/Resque, Ruby</li>
-        <li>Front end: Vue.js, Service Worker, SASS, Webpack, Babel, ESLint, Stylelint</li>
+        <li>
+          Front end: Vue.js, Service Worker, SASS, Webpack, Babel, ESLint,
+          Stylelint
+        </li>
         <li>Testing: Jest, Sinon, Selenium, JMeter, minitest (Ruby)</li>
         <li>Database: PostgreSQL, Redis</li>
       </ul>
@@ -66,10 +81,10 @@ const StartmePage: React.FC = () => {
         <li>Back- & front-end performance improvements</li>
         <li>Upgrade of Rails platform</li>
         <li>Implementation various premium widgets</li>
-        <li>worldfootball.com, see <Link to="/projects/worldfootball/">project description</Link></li>
+        <li>worldfootball.com</li>
       </ul>
     </section>
-  )
-}
+  );
+};
 
 export default StartmePage;

@@ -1,5 +1,5 @@
-@import "../styles/variables";
-@import "../styles/mixins";
+@import '../styles/variables';
+@import '../styles/mixins';
 
 .breadcrumbtrail {
   @include mobile {
@@ -16,7 +16,7 @@
 
     li:not(:last-of-type)::after {
       padding: 0 0.25em;
-      content: "\203A";
+      content: '\203A';
     }
   }
 }

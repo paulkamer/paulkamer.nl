@@ -1,5 +1,5 @@
-@import "../styles/variables";
-@import "../styles/mixins";
+@import '../styles/variables';
+@import '../styles/mixins';
 
 $height: 75px;
 $avatar_diameter: 45px;
@@ -34,5 +34,4 @@ $avatar_diameter: 45px;
     border: 2px solid $color-white;
     border-radius: 50%;
   }
-
 }

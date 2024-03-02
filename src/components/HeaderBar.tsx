@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import "./HeaderBar.scss";
+import './HeaderBar.scss';
 
 const HeaderBar: React.FC = () => {
   return (

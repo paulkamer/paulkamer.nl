@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 type Job = {
   company: string;
@@ -10,10 +10,10 @@ type Job = {
 
 export const JobsList: Job[] = [
   {
-    company: "Netcompany",
-    tenure: "May 2020 - current",
-    logo_url: "/images/logo-netcompany.png",
-    url: "/jobs/netcompany",
+    company: 'Netcompany',
+    tenure: 'May 2020 - current',
+    logo_url: '/images/logo-netcompany.png',
+    url: '/jobs/netcompany',
     text: (
       <section>
         <p>
@@ -24,13 +24,13 @@ export const JobsList: Job[] = [
         </p>
         <p>My curreny role at Netcompany is Managing Architect.</p>
       </section>
-    ),
+    )
   },
   {
-    company: "start.me",
-    tenure: "dec 2015 - April 2020",
-    logo_url: "/images/logo-startme.png",
-    url: "/jobs/startme",
+    company: 'start.me',
+    tenure: 'dec 2015 - April 2020',
+    logo_url: '/images/logo-startme.png',
+    url: '/jobs/startme',
     text: (
       <section>
         <p>
@@ -42,13 +42,13 @@ export const JobsList: Job[] = [
           numerous front-end, back-end and infrastructure-related projects.
         </p>
       </section>
-    ),
+    )
   },
   {
-    company: "Global Sports Media / Perform Group",
-    tenure: "jan 2010 - nov 2015",
-    logo_url: "/images/logo-perform.svg",
-    url: "/jobs/gsm_perform",
+    company: 'Global Sports Media / Perform Group',
+    tenure: 'jan 2010 - nov 2015',
+    logo_url: '/images/logo-perform.svg',
+    url: '/jobs/gsm_perform',
     text: (
       <section>
         <p>
@@ -62,13 +62,13 @@ export const JobsList: Job[] = [
           sports data collection platform.
         </p>
       </section>
-    ),
+    )
   },
   {
-    company: "Sport-Track / MyLaps",
-    tenure: "may 2007 - dec 2009",
-    logo_url: "/images/logo-mylaps.svg",
-    url: "https://www.mylaps.com",
+    company: 'Sport-Track / MyLaps',
+    tenure: 'may 2007 - dec 2009',
+    logo_url: '/images/logo-mylaps.svg',
+    url: 'https://www.mylaps.com',
     text: (
       <section>
         <p>
@@ -82,6 +82,6 @@ export const JobsList: Job[] = [
           for participants.
         </p>
       </section>
-    ),
-  },
+    )
+  }
 ];

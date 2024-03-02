@@ -10,7 +10,7 @@ const JobsIndexPage: React.FC = () => {
 
       <JobsList />
     </section>
-  )
-}
+  );
+};
 
 export default JobsIndexPage;

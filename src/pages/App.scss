@@ -1,5 +1,5 @@
-@import "../styles/variables";
-@import "../styles/mixins";
+@import '../styles/variables';
+@import '../styles/mixins';
 
 .app-main {
   display: flex;
@@ -23,7 +23,7 @@
       font-weight: bold;
     }
 
-    >section {
+    > section {
       position: relative;
       height: 100%;
     }

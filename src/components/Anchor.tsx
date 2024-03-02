@@ -1,12 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export interface AnchorProps {
   isInternal: boolean;
   className?: string;
   linkUri: string;
   linkContents: JSX.Element;
-  linkTarget?: "_self" | "_blank";
+  linkTarget?: '_self' | '_blank';
 }
 
 const Anchor: React.FC<AnchorProps> = (props) => {
@@ -22,7 +22,7 @@ const Anchor: React.FC<AnchorProps> = (props) => {
     <a
       className={props.className}
       href={props.linkUri}
-      target={props.linkTarget || "_self"}
+      target={props.linkTarget || '_self'}
     >
       {props.linkContents}
     </a>

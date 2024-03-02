@@ -1,8 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import "./FooterBar.scss";
-import { lastUpdated } from "../data/last_updated";
-
+import './FooterBar.scss';
+import { lastUpdated } from '../data/last_updated';
 
 const FooterBar: React.FC = () => {
   return (
@@ -39,7 +38,13 @@ const FooterBar: React.FC = () => {
           <img src="/images/mail.svg" alt="email" />
         </a>
       </div>
-      <div className="footerbar__section">last updated {lastUpdated.toLocaleDateString('en-us', { year: "numeric", month: "long" })}</div>
+      <div className="footerbar__section">
+        last updated{' '}
+        {lastUpdated.toLocaleDateString('en-us', {
+          year: 'numeric',
+          month: 'long'
+        })}
+      </div>
     </footer>
   );
 };

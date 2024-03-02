@@ -15,8 +15,8 @@ export interface IntroArticleProps {
 }
 
 const IntroArticle: React.FC<IntroArticleProps> = (props) => {
-  let titleElement: React.ReactElement | null;
-  let imageElement: React.ReactElement | null;
+  let titleElement: React.ReactNode | null;
+  let imageElement: React.ReactNode | null;
 
   titleElement = (
     <>

@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import "./Breadcrumbtrail.scss";
+import './Breadcrumbtrail.scss';
 
 type Breadcrumb = {
   label: string;

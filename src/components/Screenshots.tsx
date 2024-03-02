@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
-import baguetteBox from "baguettebox.js";
+import React, { useEffect } from 'react';
+import baguetteBox from 'baguettebox.js';
 
-import "./Screenshots.scss";
+import './Screenshots.scss';
 
 type Screenshot = {
   alt: string;
@@ -16,8 +16,8 @@ export interface ScreenshotsProps {
 
 export const Screenshots: React.FC<ScreenshotsProps> = (props) => {
   useEffect(() => {
-    console.log("useEffect");
-    baguetteBox.run(".screenshots");
+    console.log('useEffect');
+    baguetteBox.run('.screenshots');
   }, []);
 
   return (
