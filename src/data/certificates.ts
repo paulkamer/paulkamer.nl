@@ -18,9 +18,9 @@ export const certificates: CertificatesListType = [
     {
         name: "Azure Developer Associate",
         issued_by: "Microsoft",
-        credly_url: "https://www.credly.com/badges/cfbffad0-8c44-44dd-a5d2-d640c8042735",
+        credly_url: "https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/5818367a1b1c1d9",
         start_date: new Date('2021-05-31'),
-        end_date: new Date('2024-05-31'),
+        end_date: new Date('2025-06-01'),
     },
     {
         name: "Certified Kubernetes Application Developer (CKAD)",
@@ -32,15 +32,21 @@ export const certificates: CertificatesListType = [
     {
         name: "Azure Administrator Associate",
         issued_by: "Microsoft",
-        credly_url: "https://www.credly.com/badges/14fe9440-7442-4033-92c2-beffed36a908",
+        credly_url: "https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/8b360250ee368418",
         start_date: new Date('2023-03-03'),
-        end_date: new Date('2024-03-03'),
+        end_date: new Date('2025-03-04'),
     },
     {
         name: "Azure Solutions Architect Expert",
         issued_by: "Microsoft",
-        credly_url: "https://www.credly.com/badges/7ef7332c-1955-42a3-abd8-c93086c89c13",
+        credly_url: "https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/e4cb17c3d5e0c7a8",
         start_date: new Date('2023-05-19'),
-        end_date: new Date('2024-05-19'),
+        end_date: new Date('2025-05-20'),
     },    
+    {
+        name: "TOGAF 9 Certified",
+        issued_by: "The Open Group",
+        credly_url: "https://www.credly.com/badges/ea9e2396-0f7f-4975-a95f-9b2e019eeaa1",
+        start_date: new Date('2024-02-03'),
+    },      
 ];
