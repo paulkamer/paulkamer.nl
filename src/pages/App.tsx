@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './Home';
 import HeaderBar from '../components/HeaderBar';
-import Submenu from '../components/Submenu';
 import FooterBar from '../components/FooterBar';
 import Loader from '../components/Loader';
 
@@ -21,9 +20,6 @@ const App: React.FC = () => {
       <main className="app-main">
         <HeaderBar />
 
-        <div className="app-main__submenu">
-          <Submenu />
-        </div>
         <div className="app-main__page-container">
           <Suspense fallback={<Loader />}>
             <Routes>

@@ -5,11 +5,10 @@
   ],
   "rules": {
     "no-empty-source": null,
-    "no-missing-end-of-source-newline": false,
-    "max-line-length": null,
     "declaration-block-no-redundant-longhand-properties": null,
     "selector-class-pattern": null,
     "import-notation": null,
+    "media-query-no-invalid": null,
     "at-rule-no-unknown": [
       true,
       {

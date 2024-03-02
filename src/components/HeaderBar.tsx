@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Submenu from "./Submenu";
-
 import "./HeaderBar.scss";
 
 const HeaderBar: React.FC = () => {

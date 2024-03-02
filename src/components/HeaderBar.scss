@@ -35,9 +35,4 @@ $avatar_diameter: 45px;
     border-radius: 50%;
   }
 
-  &__submenu {
-    @include mobile {
-      display: none;
-    }
-  }
 }

@@ -10,19 +10,6 @@
   margin: auto;
   background-color: $main-bg-color;
 
-  &__submenu {
-    display: none;
-
-    @include mobile {
-      display: block;
-      padding-top: 1em;
-
-      ul li:not(:last-child) {
-        border-right: 1px solid $color-black;
-      }
-    }
-  }
-
   &__page-container {
     width: 100%;
     height: 100%;
