@@ -21,10 +21,7 @@
     "serve": "serve dist/",
     "deploy": "gh-pages -d dist"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
+   "browserslist": [
     "defaults"
   ],
   "devDependencies": {
