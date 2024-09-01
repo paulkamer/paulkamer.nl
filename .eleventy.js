@@ -1,6 +1,7 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("src/assets/images");
+  eleventyConfig.addPassthroughCopy({"src/assets/images/favicon.ico": "favicon.ico"});
   eleventyConfig.addPassthroughCopy({"src/assets/docs": "docs"});
   eleventyConfig.addPassthroughCopy({"./src/site.webmanifest": "site.webmanifest"});
   
