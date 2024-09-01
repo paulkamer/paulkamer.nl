@@ -2,7 +2,7 @@
     "name": "Paul Kamer",
     "shortName": "PK",
     "image": "/assets/images/avatar.jpg",
-    "title": "Software architect / Lead Developer",
+    "title": "Software Architect / Lead Developer",
     "org": "Netcompany",
     "currentFocus": "Architecture | Azure | Kubernetes",
     "location": "The Hague, The Netherlands",
@@ -39,23 +39,18 @@
         ]
       },     
       {
-        "type": "Back-end (Languages/Tools)",
+        "type": "Programming Languages/Tools",
         "tools": [
           {"language": "C#" },
           {"language": "JS/TS" },
-          {"language": "Python" },
-          {"language": "Go" },
-          {"language": "Ruby" },
-          {"language": "NodeJS"},
-          {"language": "Nginx"},
-          {"language": "Redis"},
           {"language": "PostgreSQL"},
-          {"language": "RabbitMQ"}
-        ]
-      },
-      {
-        "type": "front-end (language/tools)",
-        "tools": [
+          {"language": "Go"},
+          {"language": "Redis"},
+          {"language": "RabbitMQ"},
+          {"language": "Nginx"},
+          {"language": "Python"},
+          {"language": "Ruby"},
+          {"language": "NodeJS"},
           {"language": "React"},
           {"language": "Vue"},
           {"language": "Angular"},
@@ -68,12 +63,11 @@
           {"language": "Azure"},
           {"language": "Docker"},
           {"language": "Kubernetes"},
-          {"language": "CI/CD"},
+          {"language": "CI/CD (Azure DevOps, Gitlab CI)"},
+          {"language": "AWS"},
           {"language": "Web Performance"},
           {"language": "Security"},
           {"language": "Accessibility"},
-          {"language": "AWS"},
-          {"language": "Gitlab CI"},
           {"language": "Agile Methodologies"}
         ]
       }
@@ -81,7 +75,7 @@
     "worksFor": [
       {
         "companyName": "Netcompany",
-        "title": "Managing Architect",
+        "title": "Managing architect",
         "time_start": "May 2020",
         "time_end": "Present",
         "link": "https://netcompany.com",
@@ -97,7 +91,7 @@
       },
       {
         "companyName": "Global Sports Media / Perform Group",
-        "title": "Software Architect",
+        "title": "Web developer / Software architect",
         "time_start": "Jan 2010",
         "time_end": "Dec 2015",
         "link": "https://statsperform.com",
@@ -105,7 +99,7 @@
       },
       {
         "companyName": "Sport-Track / MyLaps",
-        "title": "Software Architect",
+        "title": "Web developer",
         "time_start": "May 2007",
         "time_end": "Dec 2009",
         "link": "https://mylaps.com",
