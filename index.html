@@ -1,27 +1,427 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="icon" href="/favicon.ico"/><meta name="theme-color" content="#000000"/><meta name="description" content="Interactive resume of Paul Kamer, full stack web developer"/><link rel="canonical" href="https://paulkamer.nl"/><link rel="apple-touch-icon" href="/avatar192.jpg"/><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"/><link rel="manifest" href="/manifest.json"/><title>Paul Kamer</title><script>// Single Page Apps for GitHub Pages
-    // https://github.com/rafrex/spa-github-pages
-    // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
-    // ----------------------------------------------------------------------
-    // This script checks to see if a redirect is present in the query string
-    // and converts it back into the correct url and adds it to the
-    // browser's history using window.history.replaceState(...),
-    // which won't cause the browser to attempt to load the new url.
-    // When the single page app is loaded further down in this file,
-    // the correct url will be waiting in the browser's history for
-    // the single page app to route accordingly.
-    (function (l) {
-      if (l.search) {
-        var q = {};
-        l.search.slice(1).split('&').forEach(function (v) {
-          var a = v.split('=');
-          q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
-        });
-        if (q.p !== undefined) {
-          window.history.replaceState(null, null,
-            l.pathname.slice(0, -1) + (q.p || '') +
-            (q.q ? ('?' + q.q) : '') +
-            l.hash
-          );
-        }
-      }
-    }(window.location))</script><script defer="defer" src="main.525858bd637d6bdf5a4c.js"></script><link href="main.470a3a9d8fb675e77c4d.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Resume of Paul Kamer - Software Architect / Lead Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="resume, cv, about, personal, profile, portfolio, Paul Kamer" name="keywords">
+    <meta content="This is the personal website of Paul Kamer." name="description">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="canonical" href="https://paulkamer.nl">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Resume of Paul Kamer">
+    <meta property="og:description" content="Paul Kamer, Software architect / Lead Developer, Netcompany">
+    <meta property="og:url" content="https://paulkamer.nl">
+    <meta property="og:site_name" content="Paul Kamer">
+    <meta property="og:image" content="/assets/images/avatar.jpg">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta content="All" name="audience">
+    <meta content="index,follow" name="robots">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body class="antialiased text-slate-950 bg-slate-50 dark:bg-slate-950 dark:text-slate-50 leading-normal font-text text-front transition-color duration-200 ease-in-out">
+    <div class="md:max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 flex flex-wrap pt-4 my-8">
+
+      <aside class="w-full lg:w-1/3 lg:border-r border-line border-r-slate-400 dark:border-r-slate-600 lg:px-6 xl:px-12">
+  <div class="flex flex-col h-full ">
+    <div>
+      <a class="sr-only" href="#connect">Connect</a>
+      <h1 class="font-black text-front text-5xl leading-none break-words mb-6">Paul Kamer</h1>
+      <h2 class="font-medium text-front mb-4 leading-tight">Software architect / Lead Developer</h2>
+      <div class="relative inline-block leading-none">
+        <div class="rounded-full relative z-10 overflow-hidden inline-block">
+          <img
+            alt="Paul Kamer"
+            class="rounded-full"
+            width="160"
+            height="160"
+            src="/assets/images/avatar.jpg"
+          />
+        </div>
+        <div class="absolute inset-0 rounded-full highlight with-border z-0 transform translate-x-12"></div>
+      </div><br>
+      <div class="inline-flex items-center highlight mt-6 w-auto">
+        <span class="text-lead border-r-2 border-r-slate-400 dark:border-r-slate-600 px-3">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+            viewBox="0 0 384 512" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+            <title>Location icon</title>
+            <path
+              d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+            </path>
+          </svg></span><span class="font-bold py-1 px-3 text-lg">The Hague, The Netherlands</span></div>
+    </div>
+    <div class="pt-8 pb-12">
+  <h3 class="font-medium text-xl uppercase mb-3" id="connect">Connnect</h3>
+  <div>
+    
+    
+      <a aria-label="linkedin" href="https://linkedin.com/in/paulkamer" rel="noopener noreferrer" target="_blank" class="inline-flex w-12 h-12 justify-center items-center ml-2 rounded-full highlight hover:shadow-lg transition-shadow duration-150">
+        
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-6 h-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+        
+      </a>
+    
+      <a aria-label="Github" href="https://github.com/paulkamer" rel="noopener noreferrer" target="_blank" class="inline-flex w-12 h-12 justify-center items-center ml-2 rounded-full highlight hover:shadow-lg transition-shadow duration-150">
+        
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" class="w-6 h-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+        
+      </a>
+    
+  </div>
+</div>
+  </div>
+</aside>
+
+      <main class="lg:w-2/3 lg:pl-8 xl:pl-12">
+        <section class="flex pb-8">
+  <div class="w-1/2 pr-4 lg:pr-12 border-r border-r-slate-400 dark:border-r-slate-600 border-line">
+    <h3 class="font-header font-semibold text-front text-md uppercase">Company</h3>
+    <p class="font-header font-light text-xl text-front leading-tight">Netcompany</p>
+  </div>
+  <div class="w-1/2 pl-4 lg:pl-12">
+    <h3 class="font-header font-semibold text-front text-md uppercase">Current Focus</h3>
+    <p class="font-header font-light text-xl text-front leading-tight">Architecture | Azure | Kubernetes</p>
+  </div>
+</section>
+        <section class="about">
+  <h3 class="font-header font-semibold text-xl uppercase mb-6">About</h3>
+  <div class="pb-8">
+    
+<p class="mb-4">
+I am a software architect with a background in full-stack development, specializing in C# .NET, Python, and TypeScript. I'm passionate about creating robust and scalable software solutions. I possess expertise in cloud technology, particularly Azure, as well as a strong focus on backend development.
+</p>
+
+<p class="mb-4">Throughout my career, I actively mentored and provided guidance to fellow developers and acted as team lead for several projects. I am adept at analyzing business requirements and translating them into technical solutions, aligning with industry best practices and standards.</p>
+
+  <p>Download my full CV in  <a href="/docs/cv.pdf">Dutch</a> or <a href="/docs/cv_en.pdf">English</a> (PDF, ~70 kB)</p>
+    
+  </div>
+</section>
+        <section>
+  <h3 class="font-header font-semibold text-xl uppercase mb-6">Skills</h3>
+  
+    <div class="pb-8">
+      <h4 class="font-header font-semibold uppercase mb-3">Non-tech skills</h4>
+      <ul class="flex flex-wrap mt-2">
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Leadership</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Problem-solving</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Communication</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Tender  writing / pre-sales</span>
+          </li>
+        
+      </ul>
+    </div>
+  
+    <div class="pb-8">
+      <h4 class="font-header font-semibold uppercase mb-3">Architecture</h4>
+      <ul class="flex flex-wrap mt-2">
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">TOGAF</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">C4 models</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Archimate</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">UML</span>
+          </li>
+        
+      </ul>
+    </div>
+  
+    <div class="pb-8">
+      <h4 class="font-header font-semibold uppercase mb-3">Back-end (Languages/Tools)</h4>
+      <ul class="flex flex-wrap mt-2">
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">C#</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">JS/TS</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Python</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Go</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Ruby</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">NodeJS</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Nginx</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Redis</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">PostgreSQL</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">RabbitMQ</span>
+          </li>
+        
+      </ul>
+    </div>
+  
+    <div class="pb-8">
+      <h4 class="font-header font-semibold uppercase mb-3">front-end (language/tools)</h4>
+      <ul class="flex flex-wrap mt-2">
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">React</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Vue</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Angular</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">HTMX</span>
+          </li>
+        
+      </ul>
+    </div>
+  
+    <div class="pb-8">
+      <h4 class="font-header font-semibold uppercase mb-3">Other Skills</h4>
+      <ul class="flex flex-wrap mt-2">
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Azure</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Docker</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Kubernetes</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">CI/CD</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Web Performance</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Security</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Accessibility</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">AWS</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Gitlab CI</span>
+          </li>
+        
+          <li class="relative inline-block mb-1 mr-1 ">
+            <span class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">Agile Methodologies</span>
+          </li>
+        
+      </ul>
+    </div>
+  
+</section>
+        <section>
+  <h3 class="font-header font-semibold text-xl uppercase mb-6">Work experience</h3>
+  <div class="pb-8">
+    <div class="work before:top-0 before:bottom-0 before:left-1/2 before:w-px before:-translate-x-px before:bg-slate-400 before:dark:bg-slate-600 before:block before:absolute before:content-[''] flex flex-col relative">
+      
+        
+          
+        
+        <div class="work-entry relative w-1/2 py-4 current"><span
+            class="dot-bg right-0 translate-x-1/2 bg-slate-400 dark:bg-slate-500 top-1/2 -translate-y-1/2 w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span
+              class="dot w-5 h-5 bg-slate-100 dark:bg-slate-50 rounded-full"></span></span>
+          <h4 class="subpixel-antialiased"><a href="https://netcompany.com" target="_blank" rel="noopener noreferrer"
+              class="link transition-colors duration-150 font-medium">Netcompany</a></h4>
+          <h5 class="text-sm font-normal mb-1">Managing Architect</h5>
+          <time datetime="May 2020" class="text-sm font-medium opacity-75">May 2020</time> - 
+          
+            <span class="text-sm font-medium opacity-75">Present</span>
+          
+        </div>
+      
+        
+          
+        
+        <div class="work-entry relative w-1/2 py-4 "><span
+            class="dot-bg right-0 translate-x-1/2 bg-slate-400 dark:bg-slate-500 top-1/2 -translate-y-1/2 w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span
+              class="dot w-5 h-5 bg-slate-100 dark:bg-slate-50 rounded-full"></span></span>
+          <h4 class="subpixel-antialiased"><a href="https://start.me" target="_blank" rel="noopener noreferrer"
+              class="link transition-colors duration-150 font-medium">Start.me</a></h4>
+          <h5 class="text-sm font-normal mb-1">Tech lead</h5>
+          <time datetime="Dec 2015" class="text-sm font-medium opacity-75">Dec 2015</time> - 
+          
+            <time datetime="Apr 2020" class="text-sm font-medium opacity-75">Apr 2020</time>
+          
+        </div>
+      
+        
+          
+        
+        <div class="work-entry relative w-1/2 py-4 "><span
+            class="dot-bg right-0 translate-x-1/2 bg-slate-400 dark:bg-slate-500 top-1/2 -translate-y-1/2 w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span
+              class="dot w-5 h-5 bg-slate-100 dark:bg-slate-50 rounded-full"></span></span>
+          <h4 class="subpixel-antialiased"><a href="https://statsperform.com" target="_blank" rel="noopener noreferrer"
+              class="link transition-colors duration-150 font-medium">Global Sports Media / Perform Group</a></h4>
+          <h5 class="text-sm font-normal mb-1">Software Architect</h5>
+          <time datetime="Jan 2010" class="text-sm font-medium opacity-75">Jan 2010</time> - 
+          
+            <time datetime="Dec 2015" class="text-sm font-medium opacity-75">Dec 2015</time>
+          
+        </div>
+      
+        
+          
+        
+        <div class="work-entry relative w-1/2 py-4 "><span
+            class="dot-bg right-0 translate-x-1/2 bg-slate-400 dark:bg-slate-500 top-1/2 -translate-y-1/2 w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span
+              class="dot w-5 h-5 bg-slate-100 dark:bg-slate-50 rounded-full"></span></span>
+          <h4 class="subpixel-antialiased"><a href="https://mylaps.com" target="_blank" rel="noopener noreferrer"
+              class="link transition-colors duration-150 font-medium">Sport-Track / MyLaps</a></h4>
+          <h5 class="text-sm font-normal mb-1">Software Architect</h5>
+          <time datetime="May 2007" class="text-sm font-medium opacity-75">May 2007</time> - 
+          
+            <time datetime="Dec 2009" class="text-sm font-medium opacity-75">Dec 2009</time>
+          
+        </div>
+      
+    </div>
+  </div>
+</section>
+        <section class="pb-8">
+  <h3 class="font-header font-semibold text-xl uppercase mb-6">Licenses &amp; certifications</h3>
+  <div class="space-y-6 border-l-2 border-dashed border-l-slate-400 dark:border-l-slate-600">
+    
+      <div class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-slate-400 dark:text-slate-600"><path d="M2.047 14.667a.992.992 0 0 0 .466.607l1.909 1.104v2.199a1 1 0 0 0 1 1h2.199l1.104 1.91a1.002 1.002 0 0 0 1.366.366L12 20.75l1.91 1.104a1.002 1.002 0 0 0 1.366-.366l1.103-1.909h2.199a1 1 0 0 0 1-1V16.38l1.909-1.104a.999.999 0 0 0 .366-1.366L20.75 12l1.104-1.909a1 1 0 0 0-.366-1.366l-1.909-1.104V5.422a1 1 0 0 0-1-1H16.38l-1.103-1.909a1.004 1.004 0 0 0-.607-.466.994.994 0 0 0-.759.1L12 3.25l-1.909-1.104a.998.998 0 0 0-1.366.365l-1.104 1.91H5.422a1 1 0 0 0-1 1V7.62L2.513 8.725a1.001 1.001 0 0 0-.365 1.366L3.251 12l-1.104 1.909a1.003 1.003 0 0 0-.1.758z"/></svg>
+        <div class="ml-6">
+          <a href="https://www.credly.com/badges/ea9e2396-0f7f-4975-a95f-9b2e019eeaa1" class="link" rel="nofollow" target="_blank"><h4 class="font-bold">TOGAF 9 Certified</h4></a>
+          <p class="mt-1 text-sm font-semibold">The Open Group</p>
+          <time datetime="2024" class="mt-1 text-sm">2024</time>
+        </div>
+      </div>
+    
+      <div class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-slate-400 dark:text-slate-600"><path d="M2.047 14.667a.992.992 0 0 0 .466.607l1.909 1.104v2.199a1 1 0 0 0 1 1h2.199l1.104 1.91a1.002 1.002 0 0 0 1.366.366L12 20.75l1.91 1.104a1.002 1.002 0 0 0 1.366-.366l1.103-1.909h2.199a1 1 0 0 0 1-1V16.38l1.909-1.104a.999.999 0 0 0 .366-1.366L20.75 12l1.104-1.909a1 1 0 0 0-.366-1.366l-1.909-1.104V5.422a1 1 0 0 0-1-1H16.38l-1.103-1.909a1.004 1.004 0 0 0-.607-.466.994.994 0 0 0-.759.1L12 3.25l-1.909-1.104a.998.998 0 0 0-1.366.365l-1.104 1.91H5.422a1 1 0 0 0-1 1V7.62L2.513 8.725a1.001 1.001 0 0 0-.365 1.366L3.251 12l-1.104 1.909a1.003 1.003 0 0 0-.1.758z"/></svg>
+        <div class="ml-6">
+          <a href="https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/e4cb17c3d5e0c7a8" class="link" rel="nofollow" target="_blank"><h4 class="font-bold">Azure Solutions Architect Expert</h4></a>
+          <p class="mt-1 text-sm font-semibold">Microsoft</p>
+          <time datetime="2023 (renewed in 2024)" class="mt-1 text-sm">2023 (renewed in 2024)</time>
+        </div>
+      </div>
+    
+      <div class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-slate-400 dark:text-slate-600"><path d="M2.047 14.667a.992.992 0 0 0 .466.607l1.909 1.104v2.199a1 1 0 0 0 1 1h2.199l1.104 1.91a1.002 1.002 0 0 0 1.366.366L12 20.75l1.91 1.104a1.002 1.002 0 0 0 1.366-.366l1.103-1.909h2.199a1 1 0 0 0 1-1V16.38l1.909-1.104a.999.999 0 0 0 .366-1.366L20.75 12l1.104-1.909a1 1 0 0 0-.366-1.366l-1.909-1.104V5.422a1 1 0 0 0-1-1H16.38l-1.103-1.909a1.004 1.004 0 0 0-.607-.466.994.994 0 0 0-.759.1L12 3.25l-1.909-1.104a.998.998 0 0 0-1.366.365l-1.104 1.91H5.422a1 1 0 0 0-1 1V7.62L2.513 8.725a1.001 1.001 0 0 0-.365 1.366L3.251 12l-1.104 1.909a1.003 1.003 0 0 0-.1.758z"/></svg>
+        <div class="ml-6">
+          <a href="https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/8b360250ee368418" class="link" rel="nofollow" target="_blank"><h4 class="font-bold">Azure Administrator Associate</h4></a>
+          <p class="mt-1 text-sm font-semibold">Microsoft</p>
+          <time datetime="2023 (renewed in 2024)" class="mt-1 text-sm">2023 (renewed in 2024)</time>
+        </div>
+      </div>
+    
+      <div class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-slate-400 dark:text-slate-600"><path d="M2.047 14.667a.992.992 0 0 0 .466.607l1.909 1.104v2.199a1 1 0 0 0 1 1h2.199l1.104 1.91a1.002 1.002 0 0 0 1.366.366L12 20.75l1.91 1.104a1.002 1.002 0 0 0 1.366-.366l1.103-1.909h2.199a1 1 0 0 0 1-1V16.38l1.909-1.104a.999.999 0 0 0 .366-1.366L20.75 12l1.104-1.909a1 1 0 0 0-.366-1.366l-1.909-1.104V5.422a1 1 0 0 0-1-1H16.38l-1.103-1.909a1.004 1.004 0 0 0-.607-.466.994.994 0 0 0-.759.1L12 3.25l-1.909-1.104a.998.998 0 0 0-1.366.365l-1.104 1.91H5.422a1 1 0 0 0-1 1V7.62L2.513 8.725a1.001 1.001 0 0 0-.365 1.366L3.251 12l-1.104 1.909a1.003 1.003 0 0 0-.1.758z"/></svg>
+        <div class="ml-6">
+          <a href="https://www.credly.com/badges/5393ae1c-dfe0-413a-beba-6d40c800f4c2" class="link" rel="nofollow" target="_blank"><h4 class="font-bold">Certified Kubernetes Application Developer (CKAD)</h4></a>
+          <p class="mt-1 text-sm font-semibold">Cloud Native Computing Foundation</p>
+          <time datetime="2021" class="mt-1 text-sm">2021</time>
+        </div>
+      </div>
+    
+      <div class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-slate-400 dark:text-slate-600"><path d="M2.047 14.667a.992.992 0 0 0 .466.607l1.909 1.104v2.199a1 1 0 0 0 1 1h2.199l1.104 1.91a1.002 1.002 0 0 0 1.366.366L12 20.75l1.91 1.104a1.002 1.002 0 0 0 1.366-.366l1.103-1.909h2.199a1 1 0 0 0 1-1V16.38l1.909-1.104a.999.999 0 0 0 .366-1.366L20.75 12l1.104-1.909a1 1 0 0 0-.366-1.366l-1.909-1.104V5.422a1 1 0 0 0-1-1H16.38l-1.103-1.909a1.004 1.004 0 0 0-.607-.466.994.994 0 0 0-.759.1L12 3.25l-1.909-1.104a.998.998 0 0 0-1.366.365l-1.104 1.91H5.422a1 1 0 0 0-1 1V7.62L2.513 8.725a1.001 1.001 0 0 0-.365 1.366L3.251 12l-1.104 1.909a1.003 1.003 0 0 0-.1.758z"/></svg>
+        <div class="ml-6">
+          <a href="https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/5818367a1b1c1d9" class="link" rel="nofollow" target="_blank"><h4 class="font-bold">Azure Developer Associate</h4></a>
+          <p class="mt-1 text-sm font-semibold">Microsoft</p>
+          <time datetime="2021 (renewed in 2024)" class="mt-1 text-sm">2021 (renewed in 2024)</time>
+        </div>
+      </div>
+    
+      <div class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-slate-400 dark:text-slate-600"><path d="M2.047 14.667a.992.992 0 0 0 .466.607l1.909 1.104v2.199a1 1 0 0 0 1 1h2.199l1.104 1.91a1.002 1.002 0 0 0 1.366.366L12 20.75l1.91 1.104a1.002 1.002 0 0 0 1.366-.366l1.103-1.909h2.199a1 1 0 0 0 1-1V16.38l1.909-1.104a.999.999 0 0 0 .366-1.366L20.75 12l1.104-1.909a1 1 0 0 0-.366-1.366l-1.909-1.104V5.422a1 1 0 0 0-1-1H16.38l-1.103-1.909a1.004 1.004 0 0 0-.607-.466.994.994 0 0 0-.759.1L12 3.25l-1.909-1.104a.998.998 0 0 0-1.366.365l-1.104 1.91H5.422a1 1 0 0 0-1 1V7.62L2.513 8.725a1.001 1.001 0 0 0-.365 1.366L3.251 12l-1.104 1.909a1.003 1.003 0 0 0-.1.758z"/></svg>
+        <div class="ml-6">
+          <a href="https://www.credly.com/badges/9ba87db8-82ce-4bf6-bc78-aef0e999e05f" class="link" rel="nofollow" target="_blank"><h4 class="font-bold">Azure Fundamentals</h4></a>
+          <p class="mt-1 text-sm font-semibold">Microsoft</p>
+          <time datetime="2021" class="mt-1 text-sm">2021</time>
+        </div>
+      </div>
+    
+  </div>
+</section>
+        <section class="pb-8">
+  <h3 class="font-header font-semibold text-xl uppercase mb-6">Education</h3>
+  <div class="space-y-6 border-l-2 border-dashed border-l-slate-400 dark:border-l-slate-600">
+    
+      <div class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-slate-400 dark:text-slate-600"><path d="M2.047 14.667a.992.992 0 0 0 .466.607l1.909 1.104v2.199a1 1 0 0 0 1 1h2.199l1.104 1.91a1.002 1.002 0 0 0 1.366.366L12 20.75l1.91 1.104a1.002 1.002 0 0 0 1.366-.366l1.103-1.909h2.199a1 1 0 0 0 1-1V16.38l1.909-1.104a.999.999 0 0 0 .366-1.366L20.75 12l1.104-1.909a1 1 0 0 0-.366-1.366l-1.909-1.104V5.422a1 1 0 0 0-1-1H16.38l-1.103-1.909a1.004 1.004 0 0 0-.607-.466.994.994 0 0 0-.759.1L12 3.25l-1.909-1.104a.998.998 0 0 0-1.366.365l-1.104 1.91H5.422a1 1 0 0 0-1 1V7.62L2.513 8.725a1.001 1.001 0 0 0-.365 1.366L3.251 12l-1.104 1.909a1.003 1.003 0 0 0-.1.758z"/></svg>
+        <div class="ml-6">
+          <h4 class="font-bold">Bachelor of Information and Communication Technology (B ICT), Informatica en Informatiekunde</h4>
+          <p class="mt-2 text-sm">De Haagse Hogeschool / The Hague University of Applied Sciences, Netherlands</p>
+          <time datetime="2003" class="mt-1 text-sm font-semibold">2003</time> - <time datetime="2007" class="mt-1 text-sm font-semibold">2007</time>
+        </div>
+      </div>
+    
+  </div>
+</section>
+      </main>
+    </div>
+    <footer class="highlight mt-16 pt-8 pb-8 text-xs text-center">
+  <p class="px-4">
+    <strong>Paul Kamer</strong> - last updated August 2024
+  </divp>
+</footer>
+  </body>
+</html>
