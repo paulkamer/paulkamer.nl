@@ -154,5 +154,11 @@
         "year": "2021",
         "link": "https://www.credly.com/badges/9ba87db8-82ce-4bf6-bc78-aef0e999e05f"
       }
+    ],
+    "hobbies": [
+      { "name": "Running / fitness" },
+      { "name": "Reading" },
+      { "name": "Photography" },
+      { "name": "Travel" }
     ]
   }
