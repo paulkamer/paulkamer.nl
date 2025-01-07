@@ -26,7 +26,8 @@
           {"language": "Leadership"},
           {"language": "Problem-solving"},
           {"language": "Communication"},
-          {"language": "Tender  writing / pre-sales"}
+          {"language": "Tender  writing / pre-sales"},
+          {"language": "Mentoring"}
         ]
       },
       {
@@ -34,7 +35,7 @@
         "tools":[
           {"language": "TOGAF"},
           {"language": "C4 models"},
-          {"language": "Archimate"},
+          {"language": "ArchiMate"},
           {"language": "UML"}
         ]
       },     
@@ -42,13 +43,13 @@
         "type": "Programming Languages/Tools",
         "tools": [
           {"language": "C#" },
-          {"language": "JS/TS" },
-          {"language": "PostgreSQL"},
           {"language": "Go"},
+          {"language": "PostgreSQL"},
+          {"language": "JS/TS" },
+          {"language": "Python"},
           {"language": "Redis"},
           {"language": "RabbitMQ"},
           {"language": "Nginx"},
-          {"language": "Python"},
           {"language": "Ruby"},
           {"language": "NodeJS"},
           {"language": "React"},
@@ -120,19 +121,19 @@
     "hasCredential": [
       {
         "org": "The Open Group",
-        "certification": "TOGAF 9 Certified",
+        "certification": "TOGAF 9 Foundation + Certified",
         "year": "2024",
         "link": "https://www.credly.com/badges/ea9e2396-0f7f-4975-a95f-9b2e019eeaa1"
       },
       {
         "org": "Microsoft",
-        "certification": "Azure Solutions Architect Expert",
+        "certification": "AZ-305 Azure Solutions Architect Expert",
         "year": "2023 (renewed in 2024)",
         "link": "https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/e4cb17c3d5e0c7a8"
       },
       {
         "org": "Microsoft",
-        "certification": "Azure Administrator Associate",
+        "certification": "AZ-104 Azure Administrator Associate",
         "year": "2023 (renewed in 2024)",
         "link": "https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/8b360250ee368418"
       },
@@ -144,13 +145,13 @@
       },      
       {
         "org": "Microsoft",
-        "certification": "Azure Developer Associate",
+        "certification": "AZ-204 Azure Developer Associate",
         "year": "2021 (renewed in 2024)",
         "link": "https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/5818367a1b1c1d9"
       },
       {
         "org": "Microsoft",
-        "certification": "Azure Fundamentals",
+        "certification": "AZ-900 Azure Fundamentals",
         "year": "2021",
         "link": "https://www.credly.com/badges/9ba87db8-82ce-4bf6-bc78-aef0e999e05f"
       }
