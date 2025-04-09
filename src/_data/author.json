@@ -3,7 +3,7 @@
     "shortName": "PK",
     "image": "/assets/images/avatar.jpg",
     "title": "Software Architect / Lead Developer",
-    "org": "Netcompany",
+    "org": "Respellion",
     "currentFocus": "Architecture | Azure | Kubernetes",
     "location": "The Hague, The Netherlands",
     "website": "https://paulkamer.nl",
@@ -75,12 +75,20 @@
     ],
     "worksFor": [
       {
-        "companyName": "Netcompany",
-        "title": "Managing architect",
-        "time_start": "May 2020",
+        "companyName": "Respellion",
+        "title": "Solution architect",
+        "time_start": "May 2025",
         "time_end": "Present",
-        "link": "https://netcompany.com",
+        "link": "https://respellion.nl",
         "isCurrent": true
+      },      
+      {
+        "companyName": "Netcompany",
+        "title": "Solution architect (Managing architect)",
+        "time_start": "May 2020",
+        "time_end": "Apr 2025",
+        "link": "https://netcompany.com",
+        "isCurrent": false
       },
       {
         "companyName": "Start.me",
@@ -92,7 +100,7 @@
       },
       {
         "companyName": "Global Sports Media / Perform Group",
-        "title": "Web developer / Software architect",
+        "title": "Senior web developer / Software architect",
         "time_start": "Jan 2010",
         "time_end": "Dec 2015",
         "link": "https://statsperform.com",
@@ -120,6 +128,12 @@
     ],
     "hasCredential": [
       {
+        "org": "Microsoft",
+        "certification": "AI-900 Azure AI Fundamentals",
+        "year": "2025",
+        "link": "https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/377d9b14ed6f9764"
+      },      
+      {
         "org": "The Open Group",
         "certification": "TOGAF 9 Foundation + Certified",
         "year": "2024",
@@ -128,13 +142,13 @@
       {
         "org": "Microsoft",
         "certification": "AZ-305 Azure Solutions Architect Expert",
-        "year": "2023 (renewed in 2024)",
+        "year": "2023 (renewed in 2025)",
         "link": "https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/e4cb17c3d5e0c7a8"
       },
       {
         "org": "Microsoft",
         "certification": "AZ-104 Azure Administrator Associate",
-        "year": "2023 (renewed in 2024)",
+        "year": "2023 (renewed in 2025)",
         "link": "https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/8b360250ee368418"
       },
       {
@@ -146,7 +160,7 @@
       {
         "org": "Microsoft",
         "certification": "AZ-204 Azure Developer Associate",
-        "year": "2021 (renewed in 2024)",
+        "year": "2021 (renewed in 2025)",
         "link": "https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/5818367a1b1c1d9"
       },
       {
