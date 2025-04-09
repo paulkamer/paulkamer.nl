@@ -2,6 +2,7 @@
   "name": "paulkamer.nl",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "start": "npm-run-all -p dev:*",
     "build": "run-s build:*",
@@ -15,7 +16,7 @@
   "author": "Paul Kamer",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^4.0.0",
     "autoprefixer": "^10.0.0",
     "gh-pages": "^6.1.1",
