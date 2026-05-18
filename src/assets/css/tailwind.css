@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 .link {
   @apply text-slate-800 hover:text-slate-500 dark:text-slate-300 dark:hover:text-slate-400 underline;
