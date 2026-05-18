@@ -86,7 +86,7 @@
         "companyName": "Netcompany",
         "title": "Solution architect (Managing architect)",
         "time_start": "May 2020",
-        "time_end": "Apr 2025",
+        "time_end": "April 2025",
         "link": "https://netcompany.com",
         "isCurrent": false
       },
@@ -117,6 +117,15 @@
     ],
     "alumniOf": [
       {
+        "org": "Open Universiteit",
+        "certification": "Pre-Master Business Process Management & IT",
+        "year_start": "2025",
+        "year_end": "2026",
+        "address": {
+          "addressCountry": "Netherlands"
+        }
+      },      
+      {
         "org": "De Haagse Hogeschool / The Hague University of Applied Sciences",
         "certification": "Bachelor of Information and Communication Technology (B ICT), Informatica en Informatiekunde",
         "year_start": "2003",
@@ -127,6 +136,12 @@
       }
     ],
     "hasCredential": [
+      {
+        "org": "The Open Group",
+        "certification": "ArchiMate® 3 Foundation",
+        "year": "2025",
+        "link": "https://www.credly.com/badges/b1f2e048-84b0-4736-aef2-d687bb8a5e51"
+      },      
       {
         "org": "Microsoft",
         "certification": "AI-900 Azure AI Fundamentals",
@@ -142,13 +157,13 @@
       {
         "org": "Microsoft",
         "certification": "AZ-305 Azure Solutions Architect Expert",
-        "year": "2023 (renewed in 2025)",
+        "year": "2023 (last renewed in 2026)",
         "link": "https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/e4cb17c3d5e0c7a8"
       },
       {
         "org": "Microsoft",
         "certification": "AZ-104 Azure Administrator Associate",
-        "year": "2023 (renewed in 2025)",
+        "year": "2023 (last renewed in 2025)",
         "link": "https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/8b360250ee368418"
       },
       {
@@ -160,7 +175,7 @@
       {
         "org": "Microsoft",
         "certification": "AZ-204 Azure Developer Associate",
-        "year": "2021 (renewed in 2025)",
+        "year": "2021 (last renewed in 2025)",
         "link": "https://learn.microsoft.com/en-us/users/paulkamer-0128/credentials/5818367a1b1c1d9"
       },
       {
